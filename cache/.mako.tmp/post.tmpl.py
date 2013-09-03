@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.77227
+_magic_number = 9
+_modified_time = 1378202678.241128
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/post.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/post.tmpl'
 _template_uri = u'post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'extra_head', u'sourcelink']
@@ -35,15 +35,15 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def extra_head():
-            return render_extra_head(context.locals_(__M_locals))
+            return render_extra_head(context._locals(__M_locals))
         helper = _mako_get_namespace(context, 'helper')
         date_format = context.get('date_format', UNDEFINED)
         def sourcelink():
-            return render_sourcelink(context.locals_(__M_locals))
+            return render_sourcelink(context._locals(__M_locals))
         messages = context.get('messages', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         post = context.get('post', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(u'\n')
@@ -117,7 +117,6 @@ def render_content(context,**pageargs):
             __M_writer(u'        ')
             __M_writer(unicode(comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)))
             __M_writer(u'\n')
-            pass
         # SOURCE LINE 32
         __M_writer(u'    ')
         __M_writer(unicode(helper.mathjax_script(post)))
@@ -146,7 +145,6 @@ def render_extra_head(context,**pageargs):
             __M_writer(u'    <meta name="keywords" content="')
             __M_writer(filters.html_escape(unicode(post.meta('keywords'))))
             __M_writer(u'"/>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -170,7 +168,6 @@ def render_sourcelink(context,**pageargs):
             __M_writer(u'" id="sourcelink">')
             __M_writer(unicode(messages("Source")))
             __M_writer(u'</a>\n')
-            pass
         # SOURCE LINE 24
         __M_writer(u'\t\t')
         return ''

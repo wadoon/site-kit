@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.879327
+_magic_number = 9
+_modified_time = 1378202678.158495
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/bootstrap/templates/bootstrap_helper.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/bootstrap/templates/bootstrap_helper.tmpl'
 _template_uri = u'bootstrap_helper.tmpl'
 _source_encoding = 'ascii'
 _exports = ['html_navigation_links', 'html_head', 'late_load_js']
@@ -66,8 +66,6 @@ def render_html_navigation_links(context):
                         __M_writer(u'">')
                         __M_writer(unicode(text))
                         __M_writer(u'</a>\n')
-                        pass
-                    pass
                 # SOURCE LINE 85
                 __M_writer(u'            </ul>\n')
                 # SOURCE LINE 86
@@ -88,9 +86,6 @@ def render_html_navigation_links(context):
                     __M_writer(u'">')
                     __M_writer(unicode(text))
                     __M_writer(u'</a>\n')
-                    pass
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -139,7 +134,6 @@ def render_html_head(context):
             else:
                 # SOURCE LINE 13
                 __M_writer(u'            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n')
-                pass
             # SOURCE LINE 15
         else:
             # SOURCE LINE 16
@@ -150,15 +144,12 @@ def render_html_head(context):
             else:
                 # SOURCE LINE 19
                 __M_writer(u'            <link href="/assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">\n            <link href="/assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">\n')
-                pass
             # SOURCE LINE 22
             __M_writer(u'        <link href="/assets/css/rst.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/code.css" rel="stylesheet" type="text/css">\n        <link href="/assets/css/colorbox.css" rel="stylesheet" type="text/css"/>\n        <link href="/assets/css/theme.css" rel="stylesheet" type="text/css"/>\n')
             # SOURCE LINE 26
             if has_custom_css:
                 # SOURCE LINE 27
                 __M_writer(u'            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">\n')
-                pass
-            pass
         # SOURCE LINE 30
         __M_writer(u'    <!--[if lt IE 9]>\n      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>\n    <![endif]-->\n')
         # SOURCE LINE 33
@@ -179,15 +170,12 @@ def render_html_head(context):
                     __M_writer(u')" href="')
                     __M_writer(unicode(_link('rss', None, language)))
                     __M_writer(u'">\n')
-                    pass
                 # SOURCE LINE 40
             else:
                 # SOURCE LINE 41
                 __M_writer(u'            <link rel="alternate" type="application/rss+xml" title="RSS" href="')
                 __M_writer(unicode(_link('rss', None)))
                 __M_writer(u'">\n')
-                pass
-            pass
         # SOURCE LINE 44
         if favicons:
             # SOURCE LINE 45
@@ -200,8 +188,6 @@ def render_html_head(context):
                 __M_writer(u'" sizes="')
                 __M_writer(unicode(size))
                 __M_writer(u'"/>\n')
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -225,7 +211,6 @@ def render_late_load_js(context):
             else:
                 # SOURCE LINE 58
                 __M_writer(u'            <script src="/assets/js/all-nocdn.js" type="text/javascript"></script>\n')
-                pass
             # SOURCE LINE 60
         else:
             # SOURCE LINE 61
@@ -236,10 +221,8 @@ def render_late_load_js(context):
             else:
                 # SOURCE LINE 65
                 __M_writer(u'            <script src="/assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>\n            <script src="/assets/js/bootstrap.min.js" type="text/javascript"></script>\n')
-                pass
             # SOURCE LINE 68
             __M_writer(u'        <script src="/assets/js/jquery.colorbox-min.js" type="text/javascript"></script>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

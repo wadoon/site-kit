@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.937924
+_magic_number = 9
+_modified_time = 1378202678.115969
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/tags.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/tags.tmpl'
 _template_uri = u'tags.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -28,7 +28,7 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         cat_items = context.get('cat_items', UNDEFINED)
         items = context.get('items', UNDEFINED)
         messages = context.get('messages', UNDEFINED)
@@ -78,8 +78,6 @@ def render_content(context,**pageargs):
                     __M_writer(u'">')
                     __M_writer(unicode(text))
                     __M_writer(u'</a></li>\n')
-                    pass
-                pass
             # SOURCE LINE 13
             __M_writer(u'        </ul>\n')
             # SOURCE LINE 14
@@ -88,8 +86,6 @@ def render_content(context,**pageargs):
                 __M_writer(u'            <h2>')
                 __M_writer(unicode(messages("Tags")))
                 __M_writer(u'</h2>\n')
-                pass
-            pass
         # SOURCE LINE 18
         if items:
             # SOURCE LINE 19
@@ -102,10 +98,8 @@ def render_content(context,**pageargs):
                 __M_writer(u'">')
                 __M_writer(unicode(text))
                 __M_writer(u'</a></li>\n')
-                pass
             # SOURCE LINE 23
             __M_writer(u'        </ul>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

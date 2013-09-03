@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.910005
+_magic_number = 9
+_modified_time = 1378202678.190321
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/index.tmpl'
 _template_uri = u'index.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -40,7 +40,7 @@ def render_body(context,**pageargs):
         posts = context.get('posts', UNDEFINED)
         comments = _mako_get_namespace(context, 'comments')
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         index_teasers = context.get('index_teasers', UNDEFINED)
         __M_writer = context.writer()
         __M_writer(u'\n')
@@ -98,10 +98,8 @@ def render_content(context,**pageargs):
                 __M_writer(u'            ')
                 __M_writer(unicode(comments.comment_link(post.permalink(), post.base_path)))
                 __M_writer(u'\n')
-                pass
             # SOURCE LINE 17
             __M_writer(u'        </div>\n')
-            pass
         # SOURCE LINE 19
         __M_writer(u'    ')
         __M_writer(unicode(helper.html_pager()))

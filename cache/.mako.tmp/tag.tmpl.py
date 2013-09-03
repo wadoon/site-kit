@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.94608
+_magic_number = 9
+_modified_time = 1378202678.173681
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/tag.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/tag.tmpl'
 _template_uri = u'tag.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'extra_head']
@@ -28,14 +28,14 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def extra_head():
-            return render_extra_head(context.locals_(__M_locals))
+            return render_extra_head(context._locals(__M_locals))
         kind = context.get('kind', UNDEFINED)
         title = context.get('title', UNDEFINED)
         posts = context.get('posts', UNDEFINED)
         translations = context.get('translations', UNDEFINED)
         _link = context.get('_link', UNDEFINED)
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         tag = context.get('tag', UNDEFINED)
         len = context.get('len', UNDEFINED)
         date_format = context.get('date_format', UNDEFINED)
@@ -88,14 +88,12 @@ def render_content(context,**pageargs):
                 __M_writer(u'">RSS (')
                 __M_writer(unicode(language))
                 __M_writer(u')</a>&nbsp;\n')
-                pass
             # SOURCE LINE 21
         else:
             # SOURCE LINE 22
             __M_writer(u'            <a href="')
             __M_writer(unicode(_link(kind + "_rss", tag)))
             __M_writer(u'">RSS</a>\n')
-            pass
         # SOURCE LINE 24
         __M_writer(u'        <br>\n        <ul class="unstyled">\n')
         # SOURCE LINE 26
@@ -108,7 +106,6 @@ def render_content(context,**pageargs):
             __M_writer(u'] ')
             __M_writer(unicode(post.title()))
             __M_writer(u'</a>\n')
-            pass
         # SOURCE LINE 29
         __M_writer(u'        </ul>\n        </div>\n        <!--End of body content-->\n')
         return ''
@@ -143,7 +140,6 @@ def render_extra_head(context,**pageargs):
                 __M_writer(u')" href="')
                 __M_writer(unicode(_link(kind + "_rss", tag, language)))
                 __M_writer(u'">\n')
-                pass
             # SOURCE LINE 8
         else:
             # SOURCE LINE 9
@@ -154,7 +150,6 @@ def render_extra_head(context,**pageargs):
             __M_writer(u'" href="')
             __M_writer(unicode(_link(kind + "_rss", tag)))
             __M_writer(u'">\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

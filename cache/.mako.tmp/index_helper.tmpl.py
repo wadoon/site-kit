@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.916647
+_magic_number = 9
+_modified_time = 1378202678.196169
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/index_helper.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/index_helper.tmpl'
 _template_uri = u'index_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['mathjax_script', 'html_pager']
@@ -37,7 +37,6 @@ def render_mathjax_script(context,posts):
         if any(post.is_mathjax for post in posts):
             # SOURCE LINE 21
             __M_writer(u'        <script src="/assets/js/mathjax.js" type="text/javascript"></script>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -61,7 +60,6 @@ def render_html_pager(context):
             __M_writer(u'">&larr; ')
             __M_writer(unicode(messages("Newer posts")))
             __M_writer(u'</a>\n    </li>\n')
-            pass
         # SOURCE LINE 10
         if nextlink:
             # SOURCE LINE 11
@@ -71,7 +69,6 @@ def render_html_pager(context):
             __M_writer(u'">')
             __M_writer(unicode(messages("Older posts")))
             __M_writer(u' &rarr;</a>\n    </li>\n')
-            pass
         # SOURCE LINE 15
         __M_writer(u'</ul>\n</div>\n')
         return ''

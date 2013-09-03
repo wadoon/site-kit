@@ -6,137 +6,207 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://weigl-io.blogspot.com/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/2012/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/2012/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/2013/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/2013/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/archive.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/formalesysteme.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/kit.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/latex-fh-trier-workflow.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/categories/mathjax.html</loc>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/categories/msc.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/galleries/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/galleries/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/listings/</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/listings/index.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201205now-my-latexmkrc-ist-complete-for-my.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201206bewerbung-msc-cs.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201206i-love-pythonbecause-it-is-right.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201207latex-flow.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201210craigsche-interpolationslemma.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201210organizing-musc.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/20130405-dempster-shafer-theory.html</loc>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201304a-little-python-script-to-visualize.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201304dempster-shafer-theory.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201304semestarabschluss-1-msc-kit.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://weigl-io.blogspot.com/posts/201305sidenotes-with-latex-and-auctex.html</loc>
-  <lastmod>2013-08-31</lastmod>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201205now-my-latexmkrc-ist-complete-for-my.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201206bewerbung-msc-cs.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201206i-love-pythonbecause-it-is-right.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201207latex-flow.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201210craigsche-interpolationslemma.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201210organizing-musc.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201304a-little-python-script-to-visualize.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201304dempster-shafer-theory.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201304semestarabschluss-1-msc-kit.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/t/201305sidenotes-with-latex-and-auctex.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/posts/test.html</loc>
+  <lastmod>2013-09-03</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://weigl-io.blogspot.com/tipue_search.html</loc>
+  <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>
 </urlset>

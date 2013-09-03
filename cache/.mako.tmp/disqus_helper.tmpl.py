@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.818522
+_magic_number = 9
+_modified_time = 1378202678.216182
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/disqus_helper.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/disqus_helper.tmpl'
 _template_uri = u'disqus_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['html_disqus_script', 'html_disqus_link', 'comment_form', 'comment_link_script', 'html_disqus', 'comment_link']
@@ -97,7 +97,6 @@ def render_comment_form(context,url,title,identifier):
                 __M_writer(u'            var disqus_url="')
                 __M_writer(unicode(url))
                 __M_writer(u'";\n')
-                pass
             # SOURCE LINE 17
             __M_writer(u'        var disqus_title=')
             __M_writer(unicode(json.dumps(title)))
@@ -108,7 +107,6 @@ def render_comment_form(context,url,title,identifier):
             # SOURCE LINE 20
             __M_writer(unicode(translations.get(lang, lang)))
             __M_writer(u'";\n        };\n        (function() {\n            var dsq = document.createElement(\'script\'); dsq.type = \'text/javascript\'; dsq.async = true;\n            dsq.src = \'http://\' + disqus_shortname + \'.disqus.com/embed.js\';\n            (document.getElementsByTagName(\'head\')[0] || document.getElementsByTagName(\'body\')[0]).appendChild(dsq);\n        })();\n    </script>\n    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>\n    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -127,7 +125,6 @@ def render_comment_link_script(context):
             __M_writer(u'       <script type="text/javascript">var disqus_shortname="')
             __M_writer(unicode(comment_system_id))
             __M_writer(u'";(function(){var a=document.createElement("script");a.async=true;a.type="text/javascript";a.src="http://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("HEAD")[0]||document.getElementsByTagName("BODY")[0]).appendChild(a)}());</script>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -164,7 +161,6 @@ def render_comment_link(context,link,identifier):
             __M_writer(u'#disqus_thread" data-disqus-identifier="')
             __M_writer(unicode(identifier))
             __M_writer(u'">Comments</a>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

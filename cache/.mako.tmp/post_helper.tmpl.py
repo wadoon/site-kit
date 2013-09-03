@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.788711
+_magic_number = 9
+_modified_time = 1378202678.254416
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/post_helper.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/post_helper.tmpl'
 _template_uri = u'post_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['html_title', 'html_tags', 'html_pager', 'twitter_card_information', 'html_translations', 'mathjax_script']
@@ -54,7 +54,6 @@ def render_html_title(context):
             __M_writer(u"'>")
             __M_writer(unicode(messages("Original site")))
             __M_writer(u'</a></p>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -82,8 +81,6 @@ def render_html_tags(context,post):
                 __M_writer(u'"><span class="badge badge-info">')
                 __M_writer(unicode(tag))
                 __M_writer(u'</span></a>\n')
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -105,7 +102,6 @@ def render_html_pager(context,post):
             __M_writer(u'">&larr; ')
             __M_writer(unicode(messages("Previous post")))
             __M_writer(u'</a>\n        </li>\n')
-            pass
         # SOURCE LINE 38
         if post.next_post:
             # SOURCE LINE 39
@@ -115,7 +111,6 @@ def render_html_pager(context,post):
             __M_writer(u'">')
             __M_writer(unicode(messages("Next post")))
             __M_writer(u' &rarr;</a>\n        </li>\n')
-            pass
         # SOURCE LINE 43
         __M_writer(u'    </ul>\n')
         return ''
@@ -151,7 +146,6 @@ def render_twitter_card_information(context,post):
                 __M_writer(u'            <meta name="twitter:site" content="')
                 __M_writer(unicode(twitter_card['site']))
                 __M_writer(u'">\n')
-                pass
             # SOURCE LINE 55
             if 'creator:id' in twitter_card:
                 # SOURCE LINE 56
@@ -164,7 +158,6 @@ def render_twitter_card_information(context,post):
                 __M_writer(u'            <meta name="twitter:creator" content="')
                 __M_writer(unicode(twitter_card['creator']))
                 __M_writer(u'">\n')
-                pass
             # SOURCE LINE 60
             __M_writer(u'        <meta name="og:title" content="')
             __M_writer(filters.html_escape(unicode(post.title()[:70])))
@@ -181,8 +174,6 @@ def render_twitter_card_information(context,post):
                 __M_writer(u'            <meta name="og:description" content="')
                 __M_writer(filters.html_escape(unicode(post.text(strip_html=True)[:200])))
                 __M_writer(u'">\n')
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -211,9 +202,6 @@ def render_html_translations(context,post):
                     __M_writer(u'">')
                     __M_writer(unicode(messages("Read in English", langname)))
                     __M_writer(u'</a>\n')
-                    pass
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -229,7 +217,6 @@ def render_mathjax_script(context,post):
         if post.is_mathjax:
             # SOURCE LINE 71
             __M_writer(u'        <script src="/assets/js/mathjax.js" type="text/javascript"></script>\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

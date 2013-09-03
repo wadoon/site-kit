@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.860656
+_magic_number = 9
+_modified_time = 1378202678.139717
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/base_helper.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/base_helper.tmpl'
 _template_uri = u'base_helper.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['html_head', 'html_translations', 'html_navigation_links', 'html_social', 'late_load_js', 'html_sidebar_links']
@@ -17,17 +17,17 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         __M_writer = context.writer()
-        # SOURCE LINE 41
-        __M_writer(u'\n\n')
         # SOURCE LINE 44
         __M_writer(u'\n\n')
-        # SOURCE LINE 48
-        __M_writer(u'\n\n<!--FIXME: remove in v7 -->\n')
-        # SOURCE LINE 53
+        # SOURCE LINE 47
         __M_writer(u'\n\n')
-        # SOURCE LINE 76
+        # SOURCE LINE 51
+        __M_writer(u'\n\n<!--FIXME: remove in v7 -->\n')
+        # SOURCE LINE 56
+        __M_writer(u'\n\n')
+        # SOURCE LINE 79
         __M_writer(u'\n\n\n')
-        # SOURCE LINE 85
+        # SOURCE LINE 88
         __M_writer(u'\n')
         return ''
     finally:
@@ -45,9 +45,11 @@ def render_html_head(context):
         blog_author = context.get('blog_author', UNDEFINED)
         mathjax_config = context.get('mathjax_config', UNDEFINED)
         rss_link = context.get('rss_link', UNDEFINED)
-        has_custom_css = context.get('has_custom_css', UNDEFINED)
         len = context.get('len', UNDEFINED)
+        comment_system_id = context.get('comment_system_id', UNDEFINED)
+        has_custom_css = context.get('has_custom_css', UNDEFINED)
         _link = context.get('_link', UNDEFINED)
+        comment_system = context.get('comment_system', UNDEFINED)
         use_bundles = context.get('use_bundles', UNDEFINED)
         blog_title = context.get('blog_title', UNDEFINED)
         __M_writer = context.writer()
@@ -77,7 +79,6 @@ def render_html_head(context):
             else:
                 # SOURCE LINE 12
                 __M_writer(u'            <link href="/assets/css/all-nocdn.css" rel="stylesheet" type="text/css">\n')
-                pass
             # SOURCE LINE 14
         else:
             # SOURCE LINE 15
@@ -86,8 +87,6 @@ def render_html_head(context):
             if has_custom_css:
                 # SOURCE LINE 19
                 __M_writer(u'            <link href="/assets/css/custom.css" rel="stylesheet" type="text/css">\n')
-                pass
-            pass
         # SOURCE LINE 22
         __M_writer(u'    <!--[if lt IE 9]>\n      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>\n    <![endif]-->\n')
         # SOURCE LINE 25
@@ -108,15 +107,12 @@ def render_html_head(context):
                     __M_writer(u')" href="')
                     __M_writer(unicode(_link('rss', None, language)))
                     __M_writer(u'">\n')
-                    pass
                 # SOURCE LINE 32
             else:
                 # SOURCE LINE 33
                 __M_writer(u'            <link rel="alternate" type="application/rss+xml" title="RSS" href="')
                 __M_writer(unicode(_link('rss', None)))
                 __M_writer(u'">\n')
-                pass
-            pass
         # SOURCE LINE 36
         if favicons:
             # SOURCE LINE 37
@@ -129,8 +125,12 @@ def render_html_head(context):
                 __M_writer(u'" sizes="')
                 __M_writer(unicode(size))
                 __M_writer(u'"/>\n')
-                pass
-            pass
+        # SOURCE LINE 41
+        if comment_system == 'facebook':
+            # SOURCE LINE 42
+            __M_writer(u'        <meta property="fb:app_id" content="')
+            __M_writer(unicode(comment_system_id))
+            __M_writer(u'">\n')
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -144,20 +144,18 @@ def render_html_translations(context):
         translations = context.get('translations', UNDEFINED)
         _link = context.get('_link', UNDEFINED)
         __M_writer = context.writer()
-        # SOURCE LINE 79
+        # SOURCE LINE 82
         __M_writer(u'\n')
-        # SOURCE LINE 80
+        # SOURCE LINE 83
         for langname in translations.keys():
-            # SOURCE LINE 81
+            # SOURCE LINE 84
             if langname != lang:
-                # SOURCE LINE 82
+                # SOURCE LINE 85
                 __M_writer(u'            <a href="')
                 __M_writer(unicode(_link("index", None, langname)))
                 __M_writer(u'">')
                 __M_writer(unicode(messages("LANGUAGE", langname)))
                 __M_writer(u'</a>\n')
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -173,59 +171,54 @@ def render_html_navigation_links(context):
         rel_link = context.get('rel_link', UNDEFINED)
         isinstance = context.get('isinstance', UNDEFINED)
         __M_writer = context.writer()
-        # SOURCE LINE 55
+        # SOURCE LINE 58
         __M_writer(u'\n')
-        # SOURCE LINE 56
+        # SOURCE LINE 59
         for url, text in navigation_links[lang]:
-            # SOURCE LINE 57
+            # SOURCE LINE 60
             if isinstance(url, tuple):
-                # SOURCE LINE 58
+                # SOURCE LINE 61
                 __M_writer(u'            <li> ')
                 __M_writer(unicode(text))
                 __M_writer(u'\n            <ul>\n')
-                # SOURCE LINE 60
+                # SOURCE LINE 63
                 for suburl, text in url:
-                    # SOURCE LINE 61
+                    # SOURCE LINE 64
                     if rel_link(permalink, suburl) == "#":
-                        # SOURCE LINE 62
+                        # SOURCE LINE 65
                         __M_writer(u'                    <li class="active"><a href="')
                         __M_writer(unicode(suburl))
                         __M_writer(u'">')
                         __M_writer(unicode(text))
                         __M_writer(u'</a>\n')
-                        # SOURCE LINE 63
+                        # SOURCE LINE 66
                     else:
-                        # SOURCE LINE 64
+                        # SOURCE LINE 67
                         __M_writer(u'                    <li><a href="')
                         __M_writer(unicode(suburl))
                         __M_writer(u'">')
                         __M_writer(unicode(text))
                         __M_writer(u'</a>\n')
-                        pass
-                    pass
-                # SOURCE LINE 67
+                # SOURCE LINE 70
                 __M_writer(u'            </ul>\n')
-                # SOURCE LINE 68
+                # SOURCE LINE 71
             else:
-                # SOURCE LINE 69
+                # SOURCE LINE 72
                 if rel_link(permalink, url) == "#":
-                    # SOURCE LINE 70
+                    # SOURCE LINE 73
                     __M_writer(u'                <li class="active"><a href="')
                     __M_writer(unicode(url))
                     __M_writer(u'">')
                     __M_writer(unicode(text))
                     __M_writer(u'</a>\n')
-                    # SOURCE LINE 71
+                    # SOURCE LINE 74
                 else:
-                    # SOURCE LINE 72
+                    # SOURCE LINE 75
                     __M_writer(u'                <li><a href="')
                     __M_writer(unicode(url))
                     __M_writer(u'">')
                     __M_writer(unicode(text))
                     __M_writer(u'</a>\n')
-                    pass
-                pass
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()
@@ -236,9 +229,9 @@ def render_html_social(context):
     try:
         social_buttons_code = context.get('social_buttons_code', UNDEFINED)
         __M_writer = context.writer()
-        # SOURCE LINE 46
+        # SOURCE LINE 49
         __M_writer(u'\n\t')
-        # SOURCE LINE 47
+        # SOURCE LINE 50
         __M_writer(unicode(social_buttons_code))
         __M_writer(u'\n')
         return ''
@@ -250,7 +243,7 @@ def render_late_load_js(context):
     __M_caller = context.caller_stack._push_frame()
     try:
         __M_writer = context.writer()
-        # SOURCE LINE 43
+        # SOURCE LINE 46
         __M_writer(u'\n')
         return ''
     finally:
@@ -263,9 +256,9 @@ def render_html_sidebar_links(context):
         def html_navigation_links():
             return render_html_navigation_links(context)
         __M_writer = context.writer()
-        # SOURCE LINE 51
+        # SOURCE LINE 54
         __M_writer(u'\n    ')
-        # SOURCE LINE 52
+        # SOURCE LINE 55
         __M_writer(unicode(html_navigation_links()))
         __M_writer(u'\n')
         return ''

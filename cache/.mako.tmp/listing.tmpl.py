@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.929374
+_magic_number = 9
+_modified_time = 1378202678.267246
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/listing.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/listing.tmpl'
 _template_uri = u'listing.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -36,7 +36,7 @@ def render_body(context,**pageargs):
         files = _import_ns.get('files', context.get('files', UNDEFINED))
         code = _import_ns.get('code', context.get('code', UNDEFINED))
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         ui = _mako_get_namespace(context, 'ui')
         crumbs = _import_ns.get('crumbs', context.get('crumbs', UNDEFINED))
         __M_writer = context.writer()
@@ -81,7 +81,6 @@ def render_content(context,**pageargs):
             __M_writer(u'"><i class="icon-folder-open"></i> ')
             __M_writer(unicode(name))
             __M_writer(u'</a>\n')
-            pass
         # SOURCE LINE 10
         for name in files:
             # SOURCE LINE 11
@@ -90,7 +89,6 @@ def render_content(context,**pageargs):
             __M_writer(u'.html"><i class="icon-file"></i> ')
             __M_writer(unicode(name))
             __M_writer(u'</a>\n')
-            pass
         # SOURCE LINE 13
         __M_writer(u'</ul>\n')
         # SOURCE LINE 14
@@ -99,7 +97,6 @@ def render_content(context,**pageargs):
             __M_writer(u'    ')
             __M_writer(unicode(code))
             __M_writer(u'\n')
-            pass
         return ''
     finally:
         context.caller_stack._pop_frame()

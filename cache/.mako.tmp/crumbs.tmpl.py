@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.905149
+_magic_number = 9
+_modified_time = 1378202678.271392
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/crumbs.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/crumbs.tmpl'
 _template_uri = u'crumbs.tmpl'
 _source_encoding = 'utf-8'
 _exports = ['bar']
@@ -40,7 +40,6 @@ def render_bar(context,crumbs):
             __M_writer(u'">')
             __M_writer(unicode(text))
             __M_writer(u'</a></li>\n')
-            pass
         # SOURCE LINE 8
         __M_writer(u'</ul>\n')
         return ''

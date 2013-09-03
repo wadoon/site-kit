@@ -14,7 +14,7 @@ SITE_URL = "http://weigl-io.blogspot.com"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://weigl-io.blogspot.com"
-BLOG_EMAIL = "noreply@blogger.com"
+BLOG_EMAIL = "uiduw@student.kit.edu"
 BLOG_DESCRIPTION = '<a href="http://github.com/areku">github</a> <a href="http://www.stud.uni-karlsruhe.de/~uiduw/">Site@Kit</a>'
 
 # Nikola is multilingual!
@@ -82,7 +82,8 @@ NAVIGATION_LINKS = {
 #
 
 post_pages = (
-            ("posts/*.html", "posts", "post.tmpl", True),
+            ("posts/*.rst", "posts", "post.tmpl", True),
+            ("posts/*.md", "posts", "post.tmpl", True),
             ("stories/*.html", "stories", "story.tmpl", False),
         )
 
@@ -100,10 +101,10 @@ post_pages = (
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
 post_compilers = {
-        "rest": ('.txt', '.rst'),
-        "markdown": ('.md', '.mdown', '.markdown', '.wp'),
-        "html": ('.html', '.htm')
-        }
+    "rest": ('.txt', '.rst'),
+    "markdown": ('.md', '.mdown', '.markdown', '.wp'),
+    "html": ('.html', '.htm')
+}
         
 
 # Create by default posts in one file format?
@@ -352,25 +353,25 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # MATHJAX_CONFIG = ""
 
 # If you are using the compile-ipynb plugin, just add this one:
-#MATHJAX_CONFIG = """
-#<script type="text/x-mathjax-config">
-#MathJax.Hub.Config({
-#    tex2jax: {
-#        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-#        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
-#    },
-#    displayAlign: 'left', // Change this to 'center' to center equations.
-#    "HTML-CSS": {
-#        styles: {'.MathJax_Display': {"margin": 0}}
-#    }
-#});
-#</script>
-#"""
+MATHJAX_CONFIG = """
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
+        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
+    },
+    displayAlign: 'center', // Change this to 'center' to center equations.
+    "HTML-CSS": {
+        styles: {'.MathJax_Display': {"margin": 0}}
+    }
+});
+</script>
+"""
 
 # What MarkDown extensions to enable?
 # You will also get gist, nikola and podcast because those are
 # done in the code, hope you don't mind ;-)
-# MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
+MARKDOWN_EXTENSIONS = ['fenced_code', 'codehilite']
 
 # Social buttons. This is sample code for AddThis (which was the default for a
 # long time). Insert anything you want here, or even make it empty.
@@ -443,31 +444,31 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # Also, there is a local search plugin you can use, based on Tipue, but it requires setting several
 # options:
 
-# SEARCH_FORM = """
-# <span class="navbar-form pull-left">
-# <input type="text" id="tipue_search_input">
-# </span>"""
-#
-# BODY_END = """
-# <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
-# <script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
-# <script type="text/javascript">
-# $(document).ready(function() {
-    # $('#tipue_search_input').tipuesearch({
-        # 'mode': 'json',
-        # 'contentLocation': '/assets/js/tipuesearch_content.json',
-        # 'showUrl': false
-    # });
-# });
-# </script>
-# """
+SEARCH_FORM = """
+ <span class="navbar-form pull-left">
+ <input type="text" id="tipue_search_input">
+ </span>"""
 
-# EXTRA_HEAD_DATA = """
-# <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
-# <div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
-# """
-# ENABLED_EXTRAS = ['local_search']
-#
+BODY_END = """
+ <script type="text/javascript" src="/assets/js/tipuesearch_set.js"></script>
+ <script type="text/javascript" src="/assets/js/tipuesearch.js"></script>
+ <script type="text/javascript">
+ $(document).ready(function() {
+     $('#tipue_search_input').tipuesearch({
+         'mode': 'json',
+         'contentLocation': '/assets/js/tipuesearch_content.json',
+         'showUrl': false
+     });
+ });
+</script>
+"""
+
+EXTRA_HEAD_DATA = """
+ <link rel="stylesheet" type="text/css" href="/assets/css/tipuesearch.css">
+ <div id="tipue_search_content" style="margin-left: auto; margin-right: auto; padding: 20px;"></div>
+ """
+ENABLED_EXTRAS = ['local_search']
+
 
 
 # Use content distribution networks for jquery and twitter-bootstrap css and js
@@ -540,12 +541,12 @@ CONTENT_FOOTER = CONTENT_FOOTER.format(email=BLOG_EMAIL,
 # Experimental plugins - use at your own risk.
 # They probably need some manual adjustments - please see their respective
 # readme.
-# ENABLED_EXTRAS = [
+ENABLED_EXTRAS = [
 #     'planetoid',
-#     'ipynb',
-#     'local_search',
+     'ipynb',
+     'local_search',
 #     'render_mustache',
-# ]
+]
 
 # List of regular expressions, links matching them will always be considered
 # valid by "nikola check -l"

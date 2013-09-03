@@ -3,10 +3,10 @@ from mako import runtime, filters, cache
 UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
-_magic_number = 8
-_modified_time = 1377941778.924733
+_magic_number = 9
+_modified_time = 1378202678.185535
 _enable_loop = True
-_template_filename = u'/usr/local/lib/python2.7/dist-packages/nikola/data/themes/base/templates/list.tmpl'
+_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/list.tmpl'
 _template_uri = 'list.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content']
@@ -28,7 +28,7 @@ def render_body(context,**pageargs):
     try:
         __M_locals = __M_dict_builtin(pageargs=pageargs)
         def content():
-            return render_content(context.locals_(__M_locals))
+            return render_content(context._locals(__M_locals))
         items = context.get('items', UNDEFINED)
         title = context.get('title', UNDEFINED)
         __M_writer = context.writer()
@@ -66,7 +66,6 @@ def render_content(context,**pageargs):
             __M_writer(u'">')
             __M_writer(unicode(text))
             __M_writer(u'</a>\n')
-            pass
         # SOURCE LINE 11
         __M_writer(u'        </ul>\n        </div>\n        <!--End of body content-->\n')
         return ''
