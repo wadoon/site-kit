@@ -1,5 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0"><channel><title>weigl::io</title><link>http://weigl-io.blogspot.com</link><description>&lt;a href="http://github.com/areku"&gt;github&lt;/a&gt; &lt;a href="http://www.stud.uni-karlsruhe.de/~uiduw/"&gt;Site@Kit&lt;/a&gt;</description><lastBuildDate>Tue, 03 Sep 2013 12:04:38 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Test</title><link>http://weigl-io.blogspot.com/posts/test.html</link><description>&lt;p&gt;Write your post here.&lt;/p&gt;</description><guid>http://weigl-io.blogspot.com/posts/test.html</guid><pubDate>Tue, 03 Sep 2013 11:17:02 GMT</pubDate></item><item><title>Dempster-Shafer-Theory</title><link>http://weigl-io.blogspot.com/posts/20130405-dempster-shafer-theory.html</link><description>&lt;p&gt;I got bored. The result is a lousy implementation of the dempster recombination
+<rss version="2.0"><channel><title>weigl::io</title><link>http://stud.ira.uka.de/~uiduw</link><description> - empty - </description><lastBuildDate>Thu, 05 Sep 2013 21:34:31 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Semester conclusion: 1 M.Sc. KIT</title><link>http://stud.ira.uka.de/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</link><description>&lt;p&gt;Here my little conclusion of the last semester (WS12/13). My first semester at
+the Karlsruher Institute of Technology in the study path for M.Sc. &lt;/p&gt;
+&lt;p&gt;My lectures were:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VF 1: Theoretische Grundlagen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;em&gt;Advanced Datastructures&lt;/em&gt; -- should be deeper in the analytical section
+  and show more techniques and tools than explizit data structures. BADS'13
+  was nice.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Formale Systeme -- Stammmodule - very dry topic and a good pace at the
+  end, where it get excited (Büchi-Automata and Model-Checking)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VF 14: Kognitive Systeme&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Automatische Sichtprüfung und Bildverarbeitung -- nice lecture, but the
+focus is to much into the optics and physics (computer scientist solve
+problems in the computer, not before)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Einführung in die Informationsfusion -- My benefit was not to much during
+  this lecture- very dry but involed docent. The last section - more
+  interresting - get very short and the probabilistic methods get too long.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Maschinelles Lernen I -- Too much topics, nothing in deep - but a nice
+overview&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wahlfach:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Telematik -- »duty" lecture« -- nearly the same content as Rechnernetze in
+  the second semester.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EF: Biomedizinische Messtechnik&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik I&lt;/em&gt; -- should be interresting, but was boring - docent was not well prepared* &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bildgebende Verfahren der Medizin I&lt;/em&gt; -- a very fast speed during the lecture and high workload for 3 ECTS.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I visited courses for 32 ECTS. I did exam in 27 ECTS. 
+In conclusion: The workload is not presented in ECTS well. The exams are based
+upon powerpoint slides, so you learn stupid bullet points.&lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</guid><pubDate>Tue, 23 Apr 2013 23:04:00 GMT</pubDate></item><item><title>Dempster-Shafer-Theory</title><link>http://stud.ira.uka.de/~uiduw/posts/20130405-dempster-shafer-theory.html</link><description>&lt;p&gt;I got bored. The result is a lousy implementation of the dempster recombination
 rule (dcr) in dempster-shafer theory (dct).&lt;/p&gt;
 &lt;p&gt;The dct describes system of base function to bind uncertainty to specific events
 (similar to Kolgomorov axioms). But the formulation of uncertainty is a kind
@@ -35,86 +89,388 @@ You can divide the interval $[0,1]$ into three parts:&lt;/p&gt;
 &lt;li&gt;$[Pl(A),1]$  describes certainty that the event $A$ does not occurred&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="n"&gt;weigla&lt;/span&gt;&lt;span class="err"&gt;@&lt;/span&gt;&lt;span class="n"&gt;cook&lt;/span&gt; &lt;span class="o"&gt;~&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;python&lt;/span&gt; &lt;span class="n"&gt;drc&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;py&lt;/span&gt;
-&lt;span class="nl"&gt;A:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.680000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.680000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;1.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒&lt;/span&gt;
-&lt;span class="nl"&gt;B:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.320000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▒▒▒▒▒▒░░░░░░░░░░░░░░&lt;/span&gt;
-&lt;span class="nl"&gt;C:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.320000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▒▒▒▒▒▒░░░░░░░░░░░░░░&lt;/span&gt;
-&lt;span class="nl"&gt;O:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.320000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;1.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;1.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓&lt;/span&gt;
+&lt;div class="code"&gt;&lt;pre&gt;weigla@cook ~ % python drc.py
+A: [m: 0.680000] [Bel 0.680000] [Pl 1.000000] ▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒
+B: [m: 0.000000] [Bel 0.000000] [Pl 0.320000] ▒▒▒▒▒▒░░░░░░░░░░░░░░
+C: [m: 0.000000] [Bel 0.000000] [Pl 0.320000] ▒▒▒▒▒▒░░░░░░░░░░░░░░
+O: [m: 0.320000] [Bel 1.000000] [Pl 1.000000] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-&lt;span class="nl"&gt;A:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.438596&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.438596&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.438596&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▓▓▓▓▓▓▓▓░░░░░░░░░░░░&lt;/span&gt;
-&lt;span class="nl"&gt;B:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.210526&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;░░░░░░░░░░░░░░░░░░░░&lt;/span&gt;
-&lt;span class="nl"&gt;C:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.350877&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;░░░░░░░░░░░░░░░░░░░░&lt;/span&gt;
-&lt;span class="nl"&gt;O:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.000000&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="mf"&gt;0.438596&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="mf"&gt;0.438596&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="err"&gt;▓▓▓▓▓▓▓▓░░░░░░░░░░░░&lt;/span&gt;
+A: [m: 0.438596] [Bel 0.438596] [Pl 0.438596] ▓▓▓▓▓▓▓▓░░░░░░░░░░░░
+B: [m: 0.210526] [Bel 0.000000] [Pl 0.000000] ░░░░░░░░░░░░░░░░░░░░
+C: [m: 0.350877] [Bel 0.000000] [Pl 0.000000] ░░░░░░░░░░░░░░░░░░░░
+O: [m: 0.000000] [Bel 0.438596] [Pl 0.438596] ▓▓▓▓▓▓▓▓░░░░░░░░░░░░
 &lt;/pre&gt;&lt;/div&gt;
 
 
 &lt;p&gt;drc.py:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="cp"&gt;#-*- encoding: utf-8 -*-&lt;/span&gt;
+&lt;div class="code"&gt;&lt;pre&gt;#-*- encoding: utf-8 -*-
 
-&lt;span class="n"&gt;class&lt;/span&gt; &lt;span class="nf"&gt;DictWrap&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;__call__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;self&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+class DictWrap(dict):
+    def __call__(self,key): return self[key]
 
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;drc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;appl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;K&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-                &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-                &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;    
-        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-            &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt; &lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-                      &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-                      &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;Y&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m2&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-                      &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="o"&gt;&amp;amp;&lt;/span&gt;&lt;span class="n"&gt;Y&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;            
-            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;K&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-        &lt;span class="nl"&gt;else:&lt;/span&gt;
-            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-    &lt;span class="n"&gt;appl&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;m1&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;appl&lt;/span&gt;
+def drc(m1,m2):
+    def appl(A):
+        K = sum((m1(X)*m2(Y)
+                for X in m1.keys()
+                for Y in m2.keys()
+                if len(X&amp;amp;Y) == 0))    
+        if A:
+            s = sum(( m1(X)*m2(Y)
+                      for X in m1.keys()
+                      for Y in m2.keys()
+                      if X&amp;amp;Y == A))            
+            return s/(1-K)
+        else:
+            return 0
+    appl.keys = m1.keys
+    return appl
 
 
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;Pl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; 
-                     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="o"&gt;&amp;amp;&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+def Pl(m, event):
+    return sum( [m(X) for X in m.keys() 
+                     if len(X &amp;amp; event) &amp;gt; 0])
 
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;Bel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="n"&gt;in&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt; 
-                     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt; &lt;span class="o"&gt;&amp;lt;=&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+def Bel(m,event):
+    return sum( [m(X) for X in m.keys() 
+                     if X &amp;lt;= event])
 
-&lt;span class="cp"&gt;#events &lt;/span&gt;
-&lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;frozenset&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="sc"&gt;'A'&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;
-&lt;span class="n"&gt;B&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;frozenset&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="sc"&gt;'B'&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;
-&lt;span class="n"&gt;C&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;frozenset&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="sc"&gt;'C'&lt;/span&gt;&lt;span class="p"&gt;,))&lt;/span&gt;
-&lt;span class="n"&gt;OMEGA&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;B&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt; &lt;span class="n"&gt;C&lt;/span&gt;
+#events 
+A = frozenset(('A',))
+B = frozenset(('B',))
+C = frozenset(('C',))
+OMEGA = A | B | C
 
-&lt;span class="cp"&gt;#example: two sensors&lt;/span&gt;
-&lt;span class="n"&gt;s1&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;DictWrap&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;OMEGA&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.4&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="n"&gt;s1&lt;/span&gt; &lt;span class="n"&gt;mesaures&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;certainty&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="mi"&gt;60&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
-&lt;span class="n"&gt;s2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;DictWrap&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;OMEGA&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.8&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt; &lt;span class="err"&gt;#&lt;/span&gt; &lt;span class="n"&gt;s2&lt;/span&gt; &lt;span class="n"&gt;mesaures&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt; &lt;span class="n"&gt;with&lt;/span&gt; &lt;span class="n"&gt;certainty&lt;/span&gt; &lt;span class="n"&gt;of&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;
+#example: two sensors
+s1 = DictWrap({ A : 0.6, OMEGA: 0.4}) # s1 mesaures A with certainty of 60%
+s2 = DictWrap({ A : 0.2, OMEGA: 0.8}) # s2 mesaures A with certainty of 20%
 
-&lt;span class="cp"&gt;#combine&lt;/span&gt;
-&lt;span class="n"&gt;fusion&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;drc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;s2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="err"&gt;'&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;Pl&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="err"&gt;'&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; 
-                                       &lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
-                                       &lt;span class="n"&gt;Bel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; 
-                                       &lt;span class="n"&gt;Pl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;)),&lt;/span&gt;
-    &lt;span class="n"&gt;print_bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;Bel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;Pl&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;event&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+#combine
+fusion = drc(s1,s2)
+def show(text, event):
+    print '%s: [m: %f] [Bel %f] [Pl %f]' % (text, 
+                                       fusion(event),
+                                       Bel(fusion,event), 
+                                       Pl(fusion,event)),
+    print_bar(Bel(fusion,event), Pl(fusion,event))
 
-&lt;span class="n"&gt;from&lt;/span&gt; &lt;span class="n"&gt;math&lt;/span&gt; &lt;span class="n"&gt;import&lt;/span&gt; &lt;span class="n"&gt;ceil&lt;/span&gt; &lt;span class="n"&gt;as&lt;/span&gt; &lt;span class="n"&gt;round&lt;/span&gt;
+from math import ceil as round
 
-&lt;span class="n"&gt;def&lt;/span&gt; &lt;span class="n"&gt;print_bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;bel&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pl&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;width&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt;
-    &lt;span class="n"&gt;fbel&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;width&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;bel&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;fpl&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kt"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;width&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;pl&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+def print_bar(bel, pl, width = 20):
+    fbel = int(width * bel)
+    fpl = int(width * pl)
 
-&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fbel&lt;/span&gt; 
-&lt;span class="n"&gt;b&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;fpl&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;fbel&lt;/span&gt; 
-&lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;width&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;fpl&lt;/span&gt; 
-&lt;span class="n"&gt;print&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'▓'&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'▒'&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'░'&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+a = fbel 
+b = fpl - fbel 
+c = width - fpl 
+print ('▓' * a) + ('▒' * b) + ('░' * c)
 
-&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'A'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'B'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;B&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'C'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'O'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;OMEGA&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+show('A', A); show('B', B); show('C', C); show('O', OMEGA)
 
-&lt;span class="cp"&gt;#combine &lt;/span&gt;
-&lt;span class="n"&gt;s3&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;DictWrap&lt;/span&gt;&lt;span class="p"&gt;({&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;B&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;})&lt;/span&gt;
-&lt;span class="n"&gt;fusion&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;drc&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;fusion&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;s3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+#combine 
+s3 = DictWrap({ A: 0.2, B: 0.3, C: 0.5})
+fusion = drc(fusion,s3)
 
-&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'A'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;A&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'B'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;B&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'C'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt; &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="sc"&gt;'O'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;OMEGA&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://weigl-io.blogspot.com/posts/20130405-dempster-shafer-theory.html</guid><pubDate>Wed, 03 Apr 2013 00:00:00 GMT</pubDate></item></channel></rss>
+show('A', A); show('B', B); show('C', C); show('O', OMEGA)
+&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://stud.ira.uka.de/~uiduw/posts/20130405-dempster-shafer-theory.html</guid><pubDate>Wed, 03 Apr 2013 00:00:00 GMT</pubDate></item><item><title>Organizing Music</title><link>http://stud.ira.uka.de/~uiduw/posts/201210organizing-musc.html</link><description>&lt;p&gt;&lt;/p&gt;&lt;div&gt;Do want to reorganize your music collection, but Amarok or other players are to hard wired? I got this problem with LP from different artists, that would be spread other the whole collection. So here is a  little script for reorganizing music collection, based on the database written by rhythmbox.&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;div&gt;It tries to determine, if an album is a anthology of different artists and put this in:&lt;/div&gt;&lt;div&gt;
+&lt;/div&gt;&lt;div&gt;   $music/&amp;lt;album&amp;gt;/&lt;span style="line-height: 16px;"&gt;$track - $artist - $album - $title.$suffix&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="line-height: 16px;"&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="line-height: 16px;"&gt;rather than albums from one artists:&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="line-height: 16px;"&gt;
+&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style="line-height: 16px;"&gt;   $music/&amp;lt;artist&amp;gt;/&amp;lt;album&amp;gt;/&lt;/span&gt;&lt;span style="line-height: 16px;"&gt;$track - $artist - $album - $title.$suffix.&lt;/span&gt;&lt;/div&gt;
+Feel free to modify. This version do not copy or move the files. It creates hard links.
+&lt;div class="highlight" style="background: #f8f8f8;"&gt;&lt;pre style="line-height: 125%;"&gt;&lt;span style="color: #408080; font-style: italic;"&gt;#!/usr/bin/python3&lt;/span&gt;
+&lt;span style="color: #408080; font-style: italic;"&gt;# -*- encoding: utf-8 -*- &lt;/span&gt;&lt;/pre&gt;&lt;pre style="line-height: 125%;"&gt;&lt;/pre&gt;&lt;pre style="line-height: 125%;"&gt;__author__  = "Alexander Weigl &amp;lt;alexweigl@gmail.com&amp;gt;"&lt;/pre&gt;&lt;pre style="line-height: 125%;"&gt;__license__ = "cc-by-sa 3.0"
+__date__    = "2012-10-02"&lt;/pre&gt;&lt;pre style="line-height: 125%;"&gt;&lt;span style="color: green; font-weight: bold;"&gt;import&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;os&lt;/span&gt; &lt;span style="color: #666666;"&gt;,&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;os.path&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;import&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;sys&lt;/span&gt;
+
+&lt;span style="color: green; font-weight: bold;"&gt;from&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;string&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;import&lt;/span&gt; Template
+&lt;span style="color: green; font-weight: bold;"&gt;from&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;urllib.parse&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;import&lt;/span&gt; unquote
+&lt;span style="color: green; font-weight: bold;"&gt;from&lt;/span&gt; &lt;span style="color: blue; font-weight: bold;"&gt;lxml&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;import&lt;/span&gt; etree
+
+PREFIX &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: #ba2121;"&gt;"file://"&lt;/span&gt;
+RHYTHMDB &lt;span style="color: #666666;"&gt;=&lt;/span&gt; os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;expanduser(&lt;span style="color: #ba2121;"&gt;"~/.local/share/rhythmbox/rhythmdb.xml"&lt;/span&gt;)
+MUSIC_PATH &lt;span style="color: #666666;"&gt;=&lt;/span&gt; os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;expanduser(&lt;span style="color: #ba2121;"&gt;"~/tmp/musc"&lt;/span&gt;)
+TEMPLATE &lt;span style="color: #666666;"&gt;=&lt;/span&gt; Template(&lt;span style="color: #ba2121;"&gt;"$track - $artist - $album - $title.$suffix"&lt;/span&gt;)
+VERBOSE &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: green;"&gt;True&lt;/span&gt;
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;mkdir&lt;/span&gt;(p):
+&lt;span style="color: #ba2121; font-style: italic;"&gt;"""&lt;/span&gt;
+&lt;span style="color: #ba2121; font-style: italic;"&gt;    save wrapper for os.mkdir&lt;/span&gt;
+&lt;span style="color: #ba2121; font-style: italic;"&gt;    """&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;try&lt;/span&gt;: 
+        os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;makedirs(p)
+&lt;span style="color: green; font-weight: bold;"&gt;except&lt;/span&gt; &lt;span style="color: #d2413a; font-weight: bold;"&gt;OSError&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;as&lt;/span&gt; e:
+&lt;span style="color: green; font-weight: bold;"&gt;print&lt;/span&gt;(e)
+&lt;span style="color: green; font-weight: bold;"&gt;return&lt;/span&gt;
+
+COUNTER &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: #666666;"&gt;0&lt;/span&gt;
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;link&lt;/span&gt;(old,new):
+&lt;span style="color: #ba2121;"&gt;"wrapper for os.link"&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;global&lt;/span&gt; COUNTER
+&lt;span style="color: green; font-weight: bold;"&gt;try&lt;/span&gt;:
+&lt;span style="color: green; font-weight: bold;"&gt;if&lt;/span&gt; VERBOSE: &lt;span style="color: green; font-weight: bold;"&gt;print&lt;/span&gt;(&lt;span style="color: #ba2121;"&gt;"Link '&lt;/span&gt;&lt;span style="color: #bb6688; font-weight: bold;"&gt;%s&lt;/span&gt;&lt;span style="color: #ba2121;"&gt;' to '&lt;/span&gt;&lt;span style="color: #bb6688; font-weight: bold;"&gt;%s&lt;/span&gt;&lt;span style="color: #ba2121;"&gt;'"&lt;/span&gt; &lt;span style="color: #666666;"&gt;%&lt;/span&gt;( old, new)) 
+        os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;link(old,new)
+        COUNTER &lt;span style="color: #666666;"&gt;+=&lt;/span&gt; &lt;span style="color: #666666;"&gt;1&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;except&lt;/span&gt; &lt;span style="color: #d2413a; font-weight: bold;"&gt;OSError&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;as&lt;/span&gt; e:
+&lt;span style="color: #408080; font-style: italic;"&gt;#print(e)&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;pass&lt;/span&gt;
+
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;entry_to_dict&lt;/span&gt;(lis):
+&lt;span style="color: #ba2121;"&gt;"translate an enty from rhymthmdb to a dictionary"&lt;/span&gt;
+    d &lt;span style="color: #666666;"&gt;=&lt;/span&gt; {}
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; ele &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; lis:
+        d[ele&lt;span style="color: #666666;"&gt;.&lt;/span&gt;tag] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; ele&lt;span style="color: #666666;"&gt;.&lt;/span&gt;text
+
+    d[&lt;span style="color: #ba2121;"&gt;'album'&lt;/span&gt;] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: #ba2121;"&gt;"Unbekannt "&lt;/span&gt; &lt;span style="color: green; font-weight: bold;"&gt;if&lt;/span&gt; d[&lt;span style="color: #ba2121;"&gt;'album'&lt;/span&gt;] &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; (&lt;span style="color: green;"&gt;None&lt;/span&gt;, &lt;span style="color: #ba2121;"&gt;""&lt;/span&gt;) &lt;span style="color: green; font-weight: bold;"&gt;else&lt;/span&gt; d[&lt;span style="color: #ba2121;"&gt;'album'&lt;/span&gt;]
+    d[&lt;span style="color: #ba2121;"&gt;'file'&lt;/span&gt;] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; unquote( d[&lt;span style="color: #ba2121;"&gt;'location'&lt;/span&gt;][&lt;span style="color: green;"&gt;len&lt;/span&gt;(PREFIX):] )
+    d[&lt;span style="color: #ba2121;"&gt;'track'&lt;/span&gt;] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: #ba2121;"&gt;"&lt;/span&gt;&lt;span style="color: #bb6688; font-weight: bold;"&gt;%02d&lt;/span&gt;&lt;span style="color: #ba2121;"&gt;"&lt;/span&gt; &lt;span style="color: #666666;"&gt;%&lt;/span&gt; &lt;span style="color: green;"&gt;int&lt;/span&gt;(d&lt;span style="color: #666666;"&gt;.&lt;/span&gt;get(&lt;span style="color: #ba2121;"&gt;'track-number'&lt;/span&gt;,&lt;span style="color: #666666;"&gt;0&lt;/span&gt;)) &lt;span style="color: #408080; font-style: italic;"&gt;#for templating&lt;/span&gt;
+    d[&lt;span style="color: #ba2121;"&gt;'suffix'&lt;/span&gt;] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; d[&lt;span style="color: #ba2121;"&gt;'file'&lt;/span&gt;][&lt;span style="color: #666666;"&gt;-3&lt;/span&gt;:]
+&lt;span style="color: green; font-weight: bold;"&gt;return&lt;/span&gt; d
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;format_song&lt;/span&gt;(s):
+&lt;span style="color: #ba2121;"&gt;"return the filename for the given song"&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;return&lt;/span&gt; TEMPLATE&lt;span style="color: #666666;"&gt;.&lt;/span&gt;substitute(&lt;span style="color: #666666;"&gt;**&lt;/span&gt;s)
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;handleCollection&lt;/span&gt;(album, songs):
+&lt;span style="color: #ba2121;"&gt;"handle the complete collection"&lt;/span&gt;
+    albumRoot &lt;span style="color: #666666;"&gt;=&lt;/span&gt; os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;join(MUSIC_PATH, album)
+    mkdir(albumRoot)
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; s &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; songs:
+        new  &lt;span style="color: #666666;"&gt;=&lt;/span&gt;   os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;join(albumRoot, format_song(s))
+        old  &lt;span style="color: #666666;"&gt;=&lt;/span&gt;   s[&lt;span style="color: #ba2121;"&gt;"file"&lt;/span&gt;]        
+        link(old,new)
+
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;handleNormalAlbum&lt;/span&gt;(album,songs):
+&lt;span style="color: #ba2121;"&gt;"handle the complete album"&lt;/span&gt;
+    artist &lt;span style="color: #666666;"&gt;=&lt;/span&gt; songs[&lt;span style="color: #666666;"&gt;0&lt;/span&gt;][&lt;span style="color: #ba2121;"&gt;"artist"&lt;/span&gt;]
+    albumRoot &lt;span style="color: #666666;"&gt;=&lt;/span&gt; os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;join(MUSIC_PATH, artist, album)
+    mkdir(albumRoot)
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; s &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; songs:
+        new  &lt;span style="color: #666666;"&gt;=&lt;/span&gt;   os&lt;span style="color: #666666;"&gt;.&lt;/span&gt;path&lt;span style="color: #666666;"&gt;.&lt;/span&gt;join(albumRoot, format_song(s))
+        old  &lt;span style="color: #666666;"&gt;=&lt;/span&gt;   s[&lt;span style="color: #ba2121;"&gt;"file"&lt;/span&gt;]
+        link(old,new)
+
+&lt;span style="color: green; font-weight: bold;"&gt;def&lt;/span&gt; &lt;span style="color: blue;"&gt;is_collection&lt;/span&gt;(songs):
+&lt;span style="color: #ba2121;"&gt;"True iff. the songs belong to a collection iff. the artists are different"&lt;/span&gt;
+    artists &lt;span style="color: #666666;"&gt;=&lt;/span&gt; [s[&lt;span style="color: #ba2121;"&gt;"artist"&lt;/span&gt;] &lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; s &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; songs]
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; i &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; &lt;span style="color: green;"&gt;range&lt;/span&gt;(&lt;span style="color: green;"&gt;len&lt;/span&gt;(artists)&lt;span style="color: #666666;"&gt;-1&lt;/span&gt;):
+&lt;span style="color: green; font-weight: bold;"&gt;if&lt;/span&gt; artists[i] &lt;span style="color: #666666;"&gt;!=&lt;/span&gt; artists[i&lt;span style="color: #666666;"&gt;+1&lt;/span&gt;]:
+&lt;span style="color: green; font-weight: bold;"&gt;return&lt;/span&gt; &lt;span style="color: green;"&gt;True&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;return&lt;/span&gt; &lt;span style="color: green;"&gt;False&lt;/span&gt;
+
+
+&lt;span style="color: green; font-weight: bold;"&gt;print&lt;/span&gt;(&lt;span style="color: #ba2121;"&gt;"Reading &lt;/span&gt;&lt;span style="color: #bb6688; font-weight: bold;"&gt;%s&lt;/span&gt;&lt;span style="color: #ba2121;"&gt;"&lt;/span&gt; &lt;span style="color: #666666;"&gt;%&lt;/span&gt; RHYTHMDB)
+tree &lt;span style="color: #666666;"&gt;=&lt;/span&gt; etree&lt;span style="color: #666666;"&gt;.&lt;/span&gt;parse(RHYTHMDB)
+
+ALBUM &lt;span style="color: #666666;"&gt;=&lt;/span&gt; &lt;span style="color: green;"&gt;dict&lt;/span&gt;()
+
+&lt;span style="color: #408080; font-style: italic;"&gt;#build up album index&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; entry &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; tree&lt;span style="color: #666666;"&gt;.&lt;/span&gt;getroot()&lt;span style="color: #666666;"&gt;.&lt;/span&gt;getchildren():
+    song &lt;span style="color: #666666;"&gt;=&lt;/span&gt; entry_to_dict(entry)
+&lt;span style="color: green; font-weight: bold;"&gt;try&lt;/span&gt;:
+        ALBUM[song[&lt;span style="color: #ba2121;"&gt;"album"&lt;/span&gt;]]&lt;span style="color: #666666;"&gt;.&lt;/span&gt;append( song )
+&lt;span style="color: green; font-weight: bold;"&gt;except&lt;/span&gt; &lt;span style="color: #d2413a; font-weight: bold;"&gt;KeyError&lt;/span&gt;:
+        ALBUM[song[&lt;span style="color: #ba2121;"&gt;"album"&lt;/span&gt;]] &lt;span style="color: #666666;"&gt;=&lt;/span&gt; [ song ]
+
+
+mkdir(MUSIC_PATH)
+
+&lt;span style="color: #408080; font-style: italic;"&gt;#for each album, handle it appropriate&lt;/span&gt;
+&lt;span style="color: green; font-weight: bold;"&gt;for&lt;/span&gt; k &lt;span style="color: #aa22ff; font-weight: bold;"&gt;in&lt;/span&gt; &lt;span style="color: green;"&gt;list&lt;/span&gt;(ALBUM&lt;span style="color: #666666;"&gt;.&lt;/span&gt;keys()):
+    songs &lt;span style="color: #666666;"&gt;=&lt;/span&gt; ALBUM[k]
+&lt;span style="color: green; font-weight: bold;"&gt;if&lt;/span&gt; is_collection(songs):
+        handleCollection(k,songs)
+&lt;span style="color: green; font-weight: bold;"&gt;else&lt;/span&gt;:
+        handleNormalAlbum(k,songs)
+
+&lt;span style="color: green; font-weight: bold;"&gt;print&lt;/span&gt;(&lt;span style="color: #ba2121;"&gt;"Linked &lt;/span&gt;&lt;span style="color: #bb6688; font-weight: bold;"&gt;%d&lt;/span&gt;&lt;span style="color: #ba2121;"&gt; files"&lt;/span&gt; &lt;span style="color: #666666;"&gt;%&lt;/span&gt; COUNTER)
+&lt;/pre&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201210organizing-musc.html</guid><pubDate>Mon, 01 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Latex flow</title><link>http://stud.ira.uka.de/~uiduw/posts/201207latex-flow.html</link><description>&lt;h4&gt;Good packages&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;showkeys&lt;/strong&gt; -- shows the reference keys in \ref and \label statements. A good choice if you use many of them.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;todonotes&lt;/strong&gt; -- provides one nice command \todo. This command prints a note on the side and with \listoftodoes you get an index of all todos in the document. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I use the following shortcuts:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre&gt;\renewcommand\question[1]{\todo[inline,color=orange!40]{#1}}
+\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
+\newcommand{\explainindetail}[1]{\todo[inline,color=red!40]{#1}}
+\newcommand{\beforepublish}[1]{\todo[inline,color=blue!40]{\textbf{before publish:} #1}}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;array&lt;/strong&gt; -- for simplier definition of tables formats, especially p{5cm} defines a row width of 5cm and text wrapping.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;mathtools&lt;/strong&gt; -- provides many fixes and new commands for typesetting math.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;nomencl&lt;/strong&gt; -- for setting a nomenclature (e. g. short definitions)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;microtype&lt;/strong&gt; -- only needed to include, makes a better typesetting&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;xcolor&lt;/strong&gt; -- provides more color names&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;multicolumn&lt;/strong&gt;-- try this for setting only one paragraph with multicolumns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;flafter&lt;/strong&gt; -- this depends on your revisior. In my unviversity the floats should be after the first occurence in the text. This package forces this.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;algorithm2e&lt;/strong&gt;-- The mighty package for setting algorithms in LaTeX. If you does not love the syntax you should consider &lt;strong&gt;algorithmic&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;hyperref&lt;/strong&gt; -- a must use for pdf users, generates pdf index and clickable referencen (and much more ...)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Create new commands and environments&lt;/h4&gt;
+&lt;p&gt;It is often useful that you create new comamnds for your needs.  I create shortcuts for often uses phrases and notations. There are two problems with writing new commands. (1) You want to use the commands within or without math mode
+(2) The leading space or non-leading space after the commands. 
+&lt;strong&gt;Solution:&lt;/strong&gt; For (1), use \ensuremath{} this put everything of the first parameter into math mode, independent of the outer mode. (2) is the target of the package &lt;strong&gt;xspace&lt;/strong&gt;.  This provdes the \xspace command, that only prints a whitespace is not an punctation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; For Big-O Notation I use:&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre&gt;\newcommand\Oh[1]{\ensuremath{\mathcal O(#1)}}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;\newcommand\mathdef{\ensuremath{=_{\text{\textup{def}}}}}&lt;/p&gt;
+&lt;p&gt;You can use \Oh{n^3} in the middle of the text or in math mode. and a good symbol for mathematical definition. &lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre&gt;\newcommand\IF{\textsc{if}\xspace}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;\newcommand\FOREACH{\textsc{foreach}\xspace}&lt;/p&gt;
+&lt;p&gt;I often write »\FOREACH-Bedingung« and so on. You can view the syntax of (re)newcommand and (re)newenvironment on every latex webpage. In my papers I typeset a lot things in teletype writer, but this looks very big. So I use that: &lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre&gt;\newcommand{\f}[1]{\begingroup \smaller \texttt{#1} \endgroup}
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;p&gt;Mathematical Operator should be declared with \DeclareMathOperator{\first}{first} and written as $\first$ and not $first$. The second means this is one or more variables (variables are always italic). If you use an operator only once, you can consider \operatorname{first}. In my thesis I have defined the following operators:&lt;/p&gt;
+&lt;p&gt;\DeclareMathOperator{\Pol}{Pol}
+    \DeclareMathOperator{\BC}{BC}
+    \DeclareMathOperator{\co}{co}
+    \DeclareMathOperator{\BFS}{BFS}
+    \DeclareMathOperator{\ZK}{ZK}
+    \DeclareMathOperator{\sZK}{sZK}&lt;/p&gt;
+&lt;h4&gt;Environments&lt;/h4&gt;
+&lt;p&gt;A short time ago I read a paper of student for &lt;i&gt;Wissenschaftliches Arbeiten&lt;/i&gt;, a lecture on my university. There was a lot of definition, propositions and other things. But not typeset in an appropriate manner. Everything that should be reference or needed later in an article should get a number in a suitable environment. AMS-Math provides for this some environments: proposition, corollar, problem, definition and should be labelled and used. An example:&lt;/p&gt;
+&lt;p&gt;\begin{definition}[Sternfreie Sprachen]
+    \label{def:sf}
+    Sei $\Sigma$ ein Alphabet. Die sternfreien Sprachen über $\Sigma$, geschrieben $SF_\Sigma$ 
+    bilden die kleinste Klasse von Sprachen über $\Sigma$, die unter folgendem abgeschlossen ist:
+  
+     \begin{itemize}
+        \item $\emptyset$ ist sternfrei
+        \item ${\varepsilon}$ ist sternfrei
+        \item ${a}$ ist sternfrei für $a\in \Sigma$
+        \item Sind $L, L'$ sternfrei, so auch $L \cdot L', \widebar L, L \cup L'$
+    \end{itemize}
+  \end{definition}&lt;/p&gt;
+&lt;p&gt;In my thesis I came to &lt;strong&gt;thmtools&lt;/strong&gt; because I wanted an index of all my definitions and theorems. &lt;/p&gt;
+&lt;h4&gt;Tools&lt;/h4&gt;
+&lt;p&gt;My current editor of choice is emacs + auctex. It has  a steep learning curve but the best features I have seen so far. I know a lot of people using LaTeX-Maker or LaTeX-Studio. These are nice but I miss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;hard wraps (align-mode)&lt;/li&gt;
+&lt;li&gt;searchable references view with a kind of intellisense autocompletion&lt;/li&gt;
+&lt;li&gt;flyspell&lt;/li&gt;
+&lt;li&gt;easy shortcuts for math symbols &lt;/li&gt;
+&lt;li&gt;C-c C-e for new environment&lt;/li&gt;
+&lt;li&gt;... &lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;For compiling my sources I take latexmk. This makes a lot of things easier. It calls bibtex if needed. Checks if the document is needed to compile again. You can plugin your file conversions easily, too. I use it in the continous mode (-pvc -pdf). This starts a recompilation every time one of the source files are changed (tex, images ... ). A difficult point is the creation of pictures for an article. In my opinion produce the &lt;strong&gt;tikz&lt;/strong&gt; good results but is too hard to learn and use. I use this only for small picture. For complex ones is inkscape my choice. This is an editor for vector graphics can save the images as PDF. This is important for avoid quality losses in resizing images in latex. I use two screens for editing. On the big screen is the emacs editor with multiple buffers (one or two files and table of contents). The small screen contains a pdf viewer (evince), that refresh the view if the pdf is changed and often an terminal, for things like git or latexmk.&lt;/p&gt;
+&lt;p&gt;I work with git and dropbox. The first is for revision and tracking changes, the last only for backup and access for other people. &lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201207latex-flow.html</guid><pubDate>Sun, 01 Jul 2012 00:00:00 GMT</pubDate></item><item><title>Python is always right</title><link>http://stud.ira.uka.de/~uiduw/posts/&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;.html</link><description>&lt;p&gt;I love Python,because it is right sometimes:&lt;/p&gt;
+&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;
+
+&lt;p&gt;A nice message of a positive test case.&lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;.html</guid><pubDate>Mon, 04 Jun 2012 23:06:00 GMT</pubDate></item><item><title>latexmk workflow</title><link>http://stud.ira.uka.de/~uiduw/posts/201205now-my-latexmkrc-ist-complete-for-my.html</link><description>&lt;p&gt;Now my latexmkrc ist complete for my thesis I post it. 
+It is adopted to my workflow and uses Incskape, Graphviz for figure creation and works with &lt;em&gt;nomencl&lt;/em&gt; package.&lt;/p&gt;
+&lt;div class="code"&gt;&lt;pre&gt;# $HOME/.latexmkrc 
+$pdf_previewer = "start evince";
+$pdf_update_method = 0;
+
+add_cus_dep( "svg", "pdf", 1, 'svg2pdf');
+add_cus_dep( "dot", "pdf", 1, 'dot2pdf');
+add_cus_dep( "nlo", "nls", 1, 'nomencl');
+
+
+sub svg2pdf {
+    system("inkscape  $_[0].svg -A $_[0].pdf --export-area-drawing --export-dpi=600");
+}
+
+sub dot2pdf {
+    system("dot -Tpdf -o $_[0].pdf   $_[0].dot");
+}
+
+sub nomencl {
+    system("makeindex $_[0].nlo -s nomencl.ist -o $_[0].nls");
+}
+&lt;/pre&gt;&lt;/div&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201205now-my-latexmkrc-ist-complete-for-my.html</guid><pubDate>Mon, 21 May 2012 16:05:00 GMT</pubDate></item><item><title>Bewerbung MSc</title><link>http://stud.ira.uka.de/~uiduw/posts/201206bewerbung-msc-cs.html</link><description>&lt;p&gt;&lt;a href="http://4.bp.blogspot.com/-J5PEZRNP3oY/T-cc4hGX5eI/AAAAAAAAB_Q/ed1Fn3Dlv3I/s1600/Bildschirmfoto+vom+2012-06-24+15:50:13.png" style="margin-left: 1em; margin-right: 1em;"&gt;&lt;img border="0" height="54" src="http://4.bp.blogspot.com/-J5PEZRNP3oY/T-cc4hGX5eI/AAAAAAAAB_Q/ed1Fn3Dlv3I/s320/Bildschirmfoto+vom+2012-06-24+15:50:13.png" width="600"&gt;&lt;/a&gt;&lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201206bewerbung-msc-cs.html</guid><pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate></item><item><title>Visalizing DSL tones</title><link>http://stud.ira.uka.de/~uiduw/posts/201304a-little-python-script-to-visualize.html</link><description>&lt;p&gt;&lt;/p&gt;&lt;p&gt;A little python script to visualize the quality of dsl tones from zyxel routers. Tested with O² DSL &amp;amp; Comfort (FW  RAS version: V3.40(AOF.5)D0 | 19.03.2009). Should work for all routers that supports wan adsl linedata {fear|near}.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&lt;div class="highlight"&gt;&lt;pre&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span class="c"&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;table align="center" cellpadding="0" cellspacing="0" class="tr-caption-container" style="margin-left: auto; margin-right: auto; text-align: center;"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td style="text-align: center;"&gt;&lt;a href="http://1.bp.blogspot.com/-LKk7c6LsBRA/UV4OxEpd7VI/AAAAAAAAD-M/v2nBedVdFA4/s1600/test.png" style="margin-left: auto; margin-right: auto;"&gt;&lt;img border="0" height="301" src="http://1.bp.blogspot.com/-LKk7c6LsBRA/UV4OxEpd7VI/AAAAAAAAD-M/v2nBedVdFA4/s400/test.png" width="400"&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td class="tr-caption" style="text-align: center;"&gt;Example from my adsl line.&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;pre&gt;&lt;span class="c"&gt;&lt;span&gt; &lt;/span&gt;&lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span class="c"&gt; &lt;/span&gt;&lt;/pre&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/python&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;pexpect&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;spawn&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;EOF&lt;/span&gt;&lt;br&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;&lt;br&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;StringIO&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="n"&gt;StringIO&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;ADDR&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"192.168.2.1"&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;PASS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"xxxxxxx"&lt;/span&gt; #&amp;lt;- here password&lt;br&gt;&lt;br&gt;&lt;span class="c"&gt;#retrieve values via telnet&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;spawn&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'telnet &lt;/span&gt;&lt;span class="si"&gt;%s&lt;/span&gt;&lt;span class="s"&gt;'&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;ADDR&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;': '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'admin'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;': '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;PASS&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'ras&amp;gt; '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;UP&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;StringIO&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;logfile_read&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;UP&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'wan adsl linedata far'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'ras&amp;gt; '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;DOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;StringIO&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;logfile_read&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;DOWN&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'wan adsl linedata near'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'ras&amp;gt; '&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sendline&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'exit'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;telnet&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expect&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;EOF&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;UP&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;DOWN&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;UP&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getvalue&lt;/span&gt;&lt;span class="p"&gt;(),&lt;/span&gt; &lt;span class="n"&gt;DOWN&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getvalue&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;parse_data_array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;array&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;useableChars&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'0123456789abcdef'&lt;/span&gt;&lt;br&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;string&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;split&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="se"&gt;\n&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;startswith&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'tone'&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;pos&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;':'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;rest&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;line&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;pos&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;            &lt;br&gt;&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;rest&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;v&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;useableChars&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;array&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;v&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;br&gt;&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;array&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;dup&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;parse_data_array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;UP&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;ddown&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;parse_data_array&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;DOWN&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="c"&gt;#&lt;/span&gt;&lt;br&gt;&lt;span class="nb"&gt;all&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dup&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ddown&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;br&gt;&lt;span class="nb"&gt;max&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ddown&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;&lt;em&gt;&lt;/em&gt;&lt;/span&gt;&lt;span class="mf"&gt;15.0&lt;/span&gt;&lt;br&gt;&lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;all&lt;/span&gt;&lt;span class="o"&gt;/&lt;/span&gt;&lt;span class="nb"&gt;max&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;matplotlib.pyplot&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;TONE_WIDTH&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mf"&gt;4.3125&lt;/span&gt; &lt;span class="c"&gt;#kHz&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;x_axis&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt; &lt;span class="n"&gt;TONE_WIDTH&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;dup&lt;/span&gt;&lt;span class="p"&gt;))]&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;pup&lt;/span&gt;   &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x_axis&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;dup&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;   &lt;span class="n"&gt;TONE_WIDTH&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'r'&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;pdown&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;bar&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x_axis&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ddown&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;TONE_WIDTH&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'b'&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;linewidth&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'DSL tones'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;yticks&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;16&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;ylabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Bit/chan"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;xlabel&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"freq [kHz]"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;legend&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;pup&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;pdown&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;]),&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'Up'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;'Down'&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;br&gt;&lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/div&gt;&lt;br&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201304a-little-python-script-to-visualize.html</guid><pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate></item><item><title>Sidenotes with LateX and Auctex</title><link>http://stud.ira.uka.de/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</link><description>&lt;p&gt;&lt;/p&gt;&lt;blockquote class="tr_bq"&gt;&lt;span style="font-size: x-small;"&gt;&lt;span&gt;  \newcommand\sidenote[1]{\marginpar{{\small \textsf{\textbf{#1}}}}}&lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;
+This creates in the margin a smaller bolder sans-serif heading. If you want to hide this macro within the fold-mode of auctex, you need to adapt following list &lt;a href="http://www.gnu.org/software/auctex/manual/auctex/Folding.html"&gt;(see here)&lt;/a&gt;:
+&lt;blockquote class="tr_bq"&gt; &lt;dl&gt;&lt;dt&gt;&lt;u&gt;User Option:&lt;/u&gt; &lt;b&gt;TeX-fold-macro-spec-list&lt;/b&gt;&lt;/dt&gt;&lt;dd&gt;List of replacement specifiers and macros to fold.  The specifier can be a string, an integer or a function symbol. 
+ If you specify a string, it will be used as a display replacement for the whole macro.  Numbers in braces, brackets, parens or angle brackets will be replaced by the respective macro argument.  For example ‘&lt;samp&gt;{1}&lt;/samp&gt;’ will be replaced by the first mandatory argument of the macro.  One can also define alternatives within the specifier which are used if an argument is not found.  Alternatives are separated by ‘&lt;samp&gt;||&lt;/samp&gt;’.  They are most useful with optional arguments.  As an example, the default specifier for ‘&lt;samp&gt;\item&lt;/samp&gt;’ is ‘&lt;samp&gt;[1]:||*&lt;/samp&gt;’ which means that if there is an optional argument, its value is shown followed by a colon.  If there is no optional argument, only an asterisk is used as the display string. 
+ If you specify a number as the first element, the content of the respective mandatory argument of a LaTeX macro will be used as the placeholder. 
+ If the first element is a function symbol, the function will be called with all mandatory arguments of the macro and the result of the function call will be used as a replacement for the macro. 
+ The placeholder is made by copying the text from the buffer together with its properties, i.e. its face as well.  If fontification has not happened when this is done (e.g. because of lazy font locking) the intended fontification will not show up.  As a workaround you can leave Emacs idle a few seconds and wait for stealth font locking to finish before you fold the buffer.  Or you just re-fold the buffer with &lt;code&gt;TeX-fold-buffer&lt;/code&gt; when you notice a wrong fontification. &lt;/dd&gt;&lt;/dl&gt;&lt;/blockquote&gt;
+In our case we can need only to execute this:
+&lt;blockquote class="tr_bq"&gt;
+&lt;/blockquote&gt;&lt;blockquote&gt;&lt;span&gt;&lt;span style="font-size: x-small;"&gt;(add-to-list 'TeX-fold-macro-spec-list
+                         '("[sidenote]" ("sidenote")))&lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;p&gt;From the documentation you can derive this:&lt;/p&gt;
+&lt;blockquote class="tr_bq"&gt;&lt;span&gt;&lt;span style="font-size: x-small;"&gt;TeX-fold-macro-spec-list := ( specifier* )&lt;/span&gt;&lt;/span&gt;
+&lt;span&gt;&lt;span style="font-size: x-small;"&gt;specifier                := ( {integer, symbol, string}
+                              list-of-tex-macros)
+list-of-tex-macros       := ( string* )&lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;
+
+&lt;p&gt;If we pass a string, the macro (+ arguments) will be replaced in fold by this string. If we use "{n}" (or brackets, parens or angle brackets) the macro will be substitue by the n-th argument. The same as you use an integer value. An symbol with a bound function will be called by the macro mandatory arguments.&lt;/p&gt;
+&lt;p&gt;Inspect for &lt;span&gt;&lt;span style="font-size: x-small;"&gt;TeX-fold-macro-spec-list &lt;/span&gt;&lt;/span&gt;more details: 
+&lt;/p&gt;&lt;blockquote class="tr_bq"&gt;&lt;span style="font-size: x-small;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="font-size: x-small;"&gt;&lt;span&gt;(("[f]"
+    ("sidenote"))
+ ("[f]"
+    ("footnote" "marginpar"))
+ ("[c]"
+    ("cite"))
+ ("[l]"
+    ("label"))
+ ("[r]"
+    ("ref" "pageref" "eqref"))
+ ("[i]"
+    ("index" "glossary"))
+ ("[1]:||&lt;em&gt;"
+    ("item"))
+ ("..."
+    ("dots"))
+ ("(C)"
+    ("copyright"))
+ ("(R)"
+    ("textregistered"))
+ ("TM"
+    ("texttrademark"))
+ (1
+    ("part" "chapter" "section" "subsection" "subsubsection" "paragraph" "subparagraph" "part&lt;/em&gt;" "chapter&lt;em&gt;" "section&lt;/em&gt;" "subsection&lt;em&gt;" "subsubsection&lt;/em&gt;" "paragraph&lt;em&gt;" "subparagraph&lt;/em&gt;" "emph" "textit" "textsl" "textmd" "textrm" "textsf" "texttt" "textbf" "textsc" "textup")))&lt;/span&gt;&lt;/span&gt;
+&lt;span style="font-size: x-small;"&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/blockquote&gt;
+&lt;p&gt;&lt;/p&gt;</description><guid>http://stud.ira.uka.de/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</guid><pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate></item><item><title>Craig'sche Interpolation Lemma</title><link>http://stud.ira.uka.de/~uiduw/posts/201210craigsche-interpolationslemma.html</link><description>&lt;p&gt;&lt;strong&gt;Satz:&lt;/strong&gt;
+Seien $A,B$ zwei aussagenlogische Formeln und es gilt
+ $\models A \Rightarrow B$ (Tautologie), dann existiert eine aussagenlogische Formeln $C$, sodass&lt;/p&gt;
+&lt;p&gt;\begin{equation}&lt;/p&gt;
+&lt;p&gt;\models A \Rightarrow C \text{ und } \models C \Rightarrow B&lt;/p&gt;
+&lt;p&gt;\end{equation}&lt;/p&gt;
+&lt;p&gt;wobei $C$ nur aus Konstanten $w,f$ und gemeinsamen Atome von $A,B$ besteht.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beispiel:&lt;/em&gt; Nehmen wir an, dass $A := p \wedge q$ und $B:= q \vee r$. Dann ist  $C := q$.&lt;/p&gt;
+&lt;p&gt;Testen wir die Tautologien:&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+p \wedge q \Rightarrow q \equiv  \neg p \vee \neg q \vee q \equiv w
+\end{equation}&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+q  \Rightarrow q \vee r \equiv  \neg q \vee q \vee r \equiv w
+\end{equation}
+&lt;em&gt;Beweis (konstrutiv):&lt;/em&gt; &lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Erster Teil&lt;/em&gt; ($\models A \Rightarrow C$). Sei $C$ eine Disjunktion wie folgt:&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+C := \bigvee A[c_1,\ldots, c_n]
+\end{equation}&lt;/p&gt;
+&lt;p&gt;dabei ersetzen wir die Atome $P_1, \ldots, P_n$ aus $A$, die &lt;em&gt;nicht&lt;/em&gt; in $B$ vorkommen durch alle möglichen Kombinationen von Konstanten $c_1,\ldots,c_n \in {w,f}$. Für jede Interpretation $I$ mit $val_I(A) = w$ gilt: $val_I(C)=w$. Denn in der Disjunktion $C$ taucht jede mögliche Kombination der Wahrheitswerte von $P_i$ auf. Der Term der Disjunktion der $C$ wahr macht ist dieser mit:&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+ A[c_1, \ldots, c_n] \text{mit } c_i = val_I(P_i)
+\end{equation}&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Zweiter Teil ($\models C \Rightarrow B$).&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Sei $I$ eine Interpretation mit $val_I(C) = w$. Dann ist mind. ein Term der Disjunktion wahr. Wir konstruieren eine Hilfeinterpretation $J$ wie folgt:&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+J(P) = \begin{cases}
+ c_i &amp;amp; \colon  P = P_i \text{ für } 1\le i \le n \
+I(P) &amp;amp; \colon \text{ sonst}
+\end{cases} 
+\end{equation}&lt;/p&gt;
+&lt;p&gt;$J$ ist ein Modell von $C$ und $A$. Nach Vorrausetzung ($A \Rightarrow B$) folgt $val_J(B) = w$. Für alle Atome in $B$ trifft die Interpretation $J$ die gleiche Aussage wie $I$. ($P_i$ waren die Atome aus $P_i \in A \wedge P_i \notin B$). Also folgt $val_I(B) = w$.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Beispiel:&lt;/em&gt; Zurück zu unseren Beispiel. Wie konstruieren das $C$ nun nachdem Beweis:&lt;/p&gt;
+&lt;p&gt;\begin{equation}
+C := A[p=0] \vee A[p=1] \equiv (0 \wedge q) \vee (1 \wedge q) \equiv q
+\end{equation} &lt;/p&gt;</description><category>mathjax</category><guid>http://stud.ira.uka.de/~uiduw/posts/201210craigsche-interpolationslemma.html</guid><pubDate>Sat, 01 Jan 2000 00:00:00 GMT</pubDate></item></channel></rss>

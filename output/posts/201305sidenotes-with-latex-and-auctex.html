@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="description" content="">
     <meta name="author" content="Alexander Weigl">
-    <title>Sidenotes with LaTex and Auctex | weigl::io</title>
+    <title>Sidenotes with LateX and Auctex | weigl::io</title>
     
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
@@ -13,7 +13,7 @@ MathJax.Hub.Config({
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
         displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
     },
-    displayAlign: 'left', // Change this to 'center' to center equations.
+    displayAlign: 'center', // Change this to 'center' to center equations.
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
     }
@@ -72,9 +72,6 @@ MathJax.Hub.Config({
                 <ul class="nav pull-right">
                 
                 
-                    <li>
-			<a href="#" id="sourcelink">Source</a>
-		</li>
                 </ul>
             </div>
         </div>
@@ -89,11 +86,11 @@ MathJax.Hub.Config({
     
     <div class="postbox">
     
-    <h1>Sidenotes with LaTex and Auctex</h1>
+    <h1>Sidenotes with LateX and Auctex</h1>
 
     <hr>
     <small>
-        Posted: <time class="published" datetime="2013-05-26T16:05:00">2013-05-26 16:05</time>
+        Posted: <time class="published" datetime="2000-01-01T00:00:00">2000-01-01 00:00</time>
         
 
 		
@@ -102,11 +99,60 @@ MathJax.Hub.Config({
 		
     </small>
     <hr>
-    <p>I often use the following Latex snippet for creating small notes (like paragraphs headings) for the reader's orientation:<br><br><br></p><blockquote class="tr_bq"><span style="font-size: x-small;"><span>  \newcommand\sidenote[1]{\marginpar{{\small \textsf{\textbf{#1}}}}}</span></span></blockquote><br>This creates in the margin a smaller bolder sans-serif heading. If you want to hide this macro within the fold-mode of auctex, you need to adapt following list <a href="http://www.gnu.org/software/auctex/manual/auctex/Folding.html">(see here)</a>:<br><blockquote class="tr_bq"> <dl><dt><u>User Option:</u> <b>TeX-fold-macro-spec-list</b></dt><dd>List of replacement specifiers and macros to fold.  The specifier can be a string, an integer or a function symbol. <br> If you specify a string, it will be used as a display replacement for the whole macro.  Numbers in braces, brackets, parens or angle brackets will be replaced by the respective macro argument.  For example ‘<samp>{1}</samp>’ will be replaced by the first mandatory argument of the macro.  One can also define alternatives within the specifier which are used if an argument is not found.  Alternatives are separated by ‘<samp>||</samp>’.  They are most useful with optional arguments.  As an example, the default specifier for ‘<samp>\item</samp>’ is ‘<samp>[1]:||*</samp>’ which means that if there is an optional argument, its value is shown followed by a colon.  If there is no optional argument, only an asterisk is used as the display string. <br> If you specify a number as the first element, the content of the respective mandatory argument of a LaTeX macro will be used as the placeholder. <br> If the first element is a function symbol, the function will be called with all mandatory arguments of the macro and the result of the function call will be used as a replacement for the macro. <br> The placeholder is made by copying the text from the buffer together with its properties, i.e. its face as well.  If fontification has not happened when this is done (e.g. because of lazy font locking) the intended fontification will not show up.  As a workaround you can leave Emacs idle a few seconds and wait for stealth font locking to finish before you fold the buffer.  Or you just re-fold the buffer with <code>TeX-fold-buffer</code> when you notice a wrong fontification. </dd></dl></blockquote><br>In our case we can need only to execute this:<br><blockquote class="tr_bq"><br></blockquote><blockquote><span><span style="font-size: x-small;">(add-to-list 'TeX-fold-macro-spec-list<br>                         '("[sidenote]" ("sidenote")))</span></span></blockquote><br><br>From the documentation you can derive this:<br><br><br><blockquote class="tr_bq"><span><span style="font-size: x-small;">TeX-fold-macro-spec-list := ( specifier* )</span></span><br><span><span style="font-size: x-small;">specifier                := ( {integer, symbol, string}<br>                              list-of-tex-macros)<br>list-of-tex-macros       := ( string* )</span></span></blockquote><br><br>If we pass a string, the macro (+ arguments) will be replaced in fold by this string. If we use "{n}" (or brackets, parens or angle brackets) the macro will be substitue by the n-th argument. The same as you use an integer value. An symbol with a bound function will be called by the macro mandatory arguments.<br><br>Inspect for <span><span style="font-size: x-small;">TeX-fold-macro-spec-list </span></span>more details: <br><blockquote class="tr_bq"><span style="font-size: x-small;"><span><br></span></span><span style="font-size: x-small;"><span>(("[f]"<br>    ("sidenote"))<br> ("[f]"<br>    ("footnote" "marginpar"))<br> ("[c]"<br>    ("cite"))<br> ("[l]"<br>    ("label"))<br> ("[r]"<br>    ("ref" "pageref" "eqref"))<br> ("[i]"<br>    ("index" "glossary"))<br> ("[1]:||*"<br>    ("item"))<br> ("..."<br>    ("dots"))<br> ("(C)"<br>    ("copyright"))<br> ("(R)"<br>    ("textregistered"))<br> ("TM"<br>    ("texttrademark"))<br> (1<br>    ("part" "chapter" "section" "subsection" "subsubsection" "paragraph" "subparagraph" "part*" "chapter*" "section*" "subsection*" "subsubsection*" "paragraph*" "subparagraph*" "emph" "textit" "textsl" "textmd" "textrm" "textsf" "texttt" "textbf" "textsc" "textup")))</span></span><br><span style="font-size: x-small;"><span><br></span></span></blockquote><br><br>
+    <p></p><blockquote class="tr_bq"><span style="font-size: x-small;"><span>  \newcommand\sidenote[1]{\marginpar{{\small \textsf{\textbf{#1}}}}}</span></span></blockquote>
+This creates in the margin a smaller bolder sans-serif heading. If you want to hide this macro within the fold-mode of auctex, you need to adapt following list <a href="http://www.gnu.org/software/auctex/manual/auctex/Folding.html">(see here)</a>:
+<blockquote class="tr_bq"> <dl><dt><u>User Option:</u> <b>TeX-fold-macro-spec-list</b></dt><dd>List of replacement specifiers and macros to fold.  The specifier can be a string, an integer or a function symbol. 
+ If you specify a string, it will be used as a display replacement for the whole macro.  Numbers in braces, brackets, parens or angle brackets will be replaced by the respective macro argument.  For example ‘<samp>{1}</samp>’ will be replaced by the first mandatory argument of the macro.  One can also define alternatives within the specifier which are used if an argument is not found.  Alternatives are separated by ‘<samp>||</samp>’.  They are most useful with optional arguments.  As an example, the default specifier for ‘<samp>\item</samp>’ is ‘<samp>[1]:||*</samp>’ which means that if there is an optional argument, its value is shown followed by a colon.  If there is no optional argument, only an asterisk is used as the display string. 
+ If you specify a number as the first element, the content of the respective mandatory argument of a LaTeX macro will be used as the placeholder. 
+ If the first element is a function symbol, the function will be called with all mandatory arguments of the macro and the result of the function call will be used as a replacement for the macro. 
+ The placeholder is made by copying the text from the buffer together with its properties, i.e. its face as well.  If fontification has not happened when this is done (e.g. because of lazy font locking) the intended fontification will not show up.  As a workaround you can leave Emacs idle a few seconds and wait for stealth font locking to finish before you fold the buffer.  Or you just re-fold the buffer with <code>TeX-fold-buffer</code> when you notice a wrong fontification. </dd></dl></blockquote>
+In our case we can need only to execute this:
+<blockquote class="tr_bq">
+</blockquote><blockquote><span><span style="font-size: x-small;">(add-to-list 'TeX-fold-macro-spec-list
+                         '("[sidenote]" ("sidenote")))</span></span></blockquote>
+<p>From the documentation you can derive this:</p>
+<blockquote class="tr_bq"><span><span style="font-size: x-small;">TeX-fold-macro-spec-list := ( specifier* )</span></span>
+<span><span style="font-size: x-small;">specifier                := ( {integer, symbol, string}
+                              list-of-tex-macros)
+list-of-tex-macros       := ( string* )</span></span></blockquote>
+
+<p>If we pass a string, the macro (+ arguments) will be replaced in fold by this string. If we use "{n}" (or brackets, parens or angle brackets) the macro will be substitue by the n-th argument. The same as you use an integer value. An symbol with a bound function will be called by the macro mandatory arguments.</p>
+<p>Inspect for <span><span style="font-size: x-small;">TeX-fold-macro-spec-list </span></span>more details: 
+</p><blockquote class="tr_bq"><span style="font-size: x-small;"><span>
+</span></span><span style="font-size: x-small;"><span>(("[f]"
+    ("sidenote"))
+ ("[f]"
+    ("footnote" "marginpar"))
+ ("[c]"
+    ("cite"))
+ ("[l]"
+    ("label"))
+ ("[r]"
+    ("ref" "pageref" "eqref"))
+ ("[i]"
+    ("index" "glossary"))
+ ("[1]:||<em>"
+    ("item"))
+ ("..."
+    ("dots"))
+ ("(C)"
+    ("copyright"))
+ ("(R)"
+    ("textregistered"))
+ ("TM"
+    ("texttrademark"))
+ (1
+    ("part" "chapter" "section" "subsection" "subsubsection" "paragraph" "subparagraph" "part</em>" "chapter<em>" "section</em>" "subsection<em>" "subsubsection</em>" "paragraph<em>" "subparagraph</em>" "emph" "textit" "textsl" "textmd" "textrm" "textsf" "texttt" "textbf" "textsc" "textup")))</span></span>
+<span style="font-size: x-small;"><span>
+</span></span></blockquote>
+<p></p>
     
     <ul class="pager">
         <li class="previous">
-            <a href="201304semestarabschluss-1-msc-kit.html">← Previous post</a>
+            <a href="201210craigsche-interpolationslemma.html">← Previous post</a>
+        </li>
+        <li class="next">
+            <a href="201304a-little-python-script-to-visualize.html">Next post →</a>
         </li>
     </ul>
 
@@ -115,8 +161,8 @@ MathJax.Hub.Config({
         <div id="disqus_thread"></div>
         <script type="text/javascript">
         var disqus_shortname ="nikolademo";
-            var disqus_url="http://weigl-io.blogspot.com/posts/201305sidenotes-with-latex-and-auctex.html";
-        var disqus_title="Sidenotes with LaTex and Auctex";
+            var disqus_url="http://stud.ira.uka.de/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html";
+        var disqus_title="Sidenotes with LateX and Auctex";
         var disqus_identifier="cache/posts/201305sidenotes-with-latex-and-auctex.html";
         var disqus_config = function () {
             this.language = "en";
@@ -140,7 +186,7 @@ MathJax.Hub.Config({
     <!--End of body content-->
 </div>
 <div class="footerbox">
-    Contents © 2013         <a href="mailto:uiduw@student.kit.edu">Alexander Weigl</a> - Powered by         <a href="http://nikola.ralsina.com.ar">Nikola</a>         
+    Contents © 2013         <a href="mailto:uiduw@student.kit.edu">Alexander Weigl</a>
 </div>
 
             <script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
@@ -149,18 +195,6 @@ MathJax.Hub.Config({
 
 
 	
-<!-- Social buttons -->
-<div id="addthisbox" class="addthis_toolbox addthis_peekaboo_style addthis_default_style addthis_label_style addthis_32x32_style">
-<a class="addthis_button_more">Share</a>
-<ul><li><a class="addthis_button_facebook"></a>
-</li><li><a class="addthis_button_google_plusone_share"></a>
-</li><li><a class="addthis_button_linkedin"></a>
-</li><li><a class="addthis_button_twitter"></a>
-</li></ul>
-</div>
-<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4f7088a56bb93798"></script>
-<!-- End of social buttons -->
-
 
     <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
     $(window).on('hashchange', function(){
