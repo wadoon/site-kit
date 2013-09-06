@@ -4,9 +4,9 @@ UNDEFINED = runtime.UNDEFINED
 __M_dict_builtin = dict
 __M_locals_builtin = locals
 _magic_number = 9
-_modified_time = 1378409679.511165
+_modified_time = 1378483242.247514
 _enable_loop = True
-_template_filename = u'/home/weigla/Projects/site-kit/nikola/local/lib/python2.7/site-packages/nikola/data/themes/base/templates/post.tmpl'
+_template_filename = u'themes/mystyle/templates/post.tmpl'
 _template_uri = u'post.tmpl'
 _source_encoding = 'utf-8'
 _exports = [u'content', u'extra_head', u'sourcelink']
@@ -112,7 +112,7 @@ def render_content(context,**pageargs):
         __M_writer(unicode(helper.html_pager(post)))
         __M_writer(u'\n')
         # SOURCE LINE 29
-        if not post.meta('nocomments'):
+        if post.meta('comments'):
             # SOURCE LINE 30
             __M_writer(u'        ')
             __M_writer(unicode(comments.comment_form(post.permalink(absolute=True), post.title(), post.base_path)))

@@ -5,117 +5,137 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2000/</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2000/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2000/index.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2000/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2012/</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2011/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2012/index.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2011/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2013/</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2012/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/2013/index.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2012/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/archive.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2013/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/categories/</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/2013/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/categories/index.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/archive.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/categories/mathjax.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/categories/</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/index.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/categories/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201205now-my-latexmkrc-ist-complete-for-my.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/categories/mathjax.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201206bewerbung-msc-cs.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/index.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201207latex-flow.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201205now-my-latexmkrc-ist-complete-for-my.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201210craigsche-interpolationslemma.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201206bewerbung-msc-cs.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201210organizing-musc.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201207latex-flow.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/20130405-dempster-shafer-theory.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201304a-little-python-script-to-visualize.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201210organizing-musc.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/20130405-dempster-shafer-theory.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201304a-little-python-script-to-visualize.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/posts/<blockquote>AssertionError: False is not true</blockquote>.html</loc>
-  <lastmod>2013-09-05</lastmod>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</loc>
+  <lastmod>2013-09-06</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
-  <loc>http://stud.ira.uka.de/~uiduw/tipue_search.html</loc>
+  <loc>http://www.student.kit.edu/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</loc>
+  <lastmod>2013-09-06</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/posts/<blockquote>AssertionError: False is not true</blockquote>.html</loc>
+  <lastmod>2013-09-06</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/stories/tla.html</loc>
+  <lastmod>2013-09-06</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/stories/tp.html</loc>
+  <lastmod>2013-09-06</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/tipue_search.html</loc>
   <lastmod>2013-09-03</lastmod>
   <priority>0.5000</priority>
  </url>

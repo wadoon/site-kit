@@ -1,6 +1,5 @@
-<!DOCTYPE html><html if comment_system="=" xmlns:fb="http://ogp.me/ns/fb#" lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <meta charset="utf-8">
     <meta name="description" content="">
@@ -9,22 +8,34 @@
     
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+  TeX: {
+      Macros: {
+            RR: "{\\mathbf{R}}",
+	    br: "&",
+            bold: ["{\\bf #1}",1]
+      }
+  }
+});
+
+
+MathJax.Hub.Config({
     tex2jax: {
         inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\[","\\]"] ]
+        displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+        processEscapes: true,        
     },
     displayAlign: 'center', // Change this to 'center' to center equations.
+    asciimath2jax: {
+         delimiters: [[ '``', '``']]     
+    },
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
 </script>
 
-            <link href="../assets/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-            <link href="../assets/css/bootstrap-responsive.min.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/rst.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/code.css" rel="stylesheet" type="text/css">
-        <link href="../assets/css/colorbox.css" rel="stylesheet" type="text/css">
         <link href="../assets/css/theme.css" rel="stylesheet" type="text/css">
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -41,48 +52,27 @@ MathJax.Hub.Config({
  
 
 
-<!-- Menubar -->
-<div class="navbar navbar-fixed-top" id="navbar">
-    <div class="navbar-inner">
-        <div class="container">
 
-        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-        </a>
-
-            <a class="brand" href="../">
-            weigl::io
-            </a>
-            <!-- Everything you want hidden at 940px or less, place within here -->
-            <div class="nav-collapse collapse">
-                <ul class="nav">
-                    
+    <!--Sidebar content-->
+    <ul id="sidebar">
+    
                 <li><a href="../archive.html">Archives</a>
                 </li><li><a href="../categories/index.html">Tags</a>
                 </li><li><a href="../rss.xml">RSS</a>
 
-                </li></ul>
-                    
+    </li><li>
  <span class="navbar-form pull-left">
- <input type="text" id="tipue_search_input">
- </span>
-                <ul class="nav pull-right">
-                
-                
-                </ul>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
-    <!--Body content-->
-    <div class="row-fluid">
-    <div class="span2"></div>
-    <div class="span8">
+ <input placeholder="Search" type="text" id="tipue_search_input">
+ </span></li>
+    </ul>
+
+
+    <h1 id="blog-title">
+        <a href="../" title="weigl::io">weigl::io</a>
+    </h1>
+		
+		<!--	 -->
+
     
     <div class="postbox">
     
@@ -90,7 +80,7 @@ MathJax.Hub.Config({
 
     <hr>
     <small>
-        Posted: <time class="published" datetime="2000-01-01T00:00:00">2000-01-01 00:00</time>
+        Posted: <time class="published" datetime="2012-10-18T00:00:00">2012-10-18 00:00</time>
         
 
 		
@@ -99,103 +89,94 @@ MathJax.Hub.Config({
 
           |  
 		
+			<a href="201210craigsche-interpolationslemma.rst" id="sourcelink">Source</a>
+		
     </small>
     <hr>
     <p><strong>Satz:</strong>
-Seien $A,B$ zwei aussagenlogische Formeln und es gilt
- $\models A \Rightarrow B$ (Tautologie), dann existiert eine aussagenlogische Formeln $C$, sodass</p>
-<p>\begin{equation}</p>
-<p>\models A \Rightarrow C \text{ und } \models C \Rightarrow B</p>
-<p>\end{equation}</p>
+Seien $A,B$ zwei aussagenlogische Formeln und es gilt <span class="math">\(\models A \Rightarrow B\)</span>
+ (Tautologie), dann existiert eine aussagenlogische Formeln $C$, sodass</p>
+<div class="math">
+\begin{equation*}
+\models A \Rightarrow C \text{ und } \models C \Rightarrow B
+\end{equation*}
+</div>
 <p>wobei $C$ nur aus Konstanten $w,f$ und gemeinsamen Atome von $A,B$ besteht.</p>
-<p><em>Beispiel:</em> Nehmen wir an, dass $A := p \wedge q$ und $B:= q \vee r$. Dann ist  $C := q$.</p>
+<p><em>Beispiel:</em> Nehmen wir an, dass <span class="math">\(A := p \wedge q\)</span>
+
+und <span class="math">\(B:= q \vee r\)</span>
+. Dann ist  $C := q$.</p>
 <p>Testen wir die Tautologien:</p>
-<p>\begin{equation}
-p \wedge q \Rightarrow q \equiv  \neg p \vee \neg q \vee q \equiv w
-\end{equation}</p>
-<p>\begin{equation}
-q  \Rightarrow q \vee r \equiv  \neg q \vee q \vee r \equiv w
-\end{equation}
-<em>Beweis (konstrutiv):</em> </p>
-<p><em>Erster Teil</em> ($\models A \Rightarrow C$). Sei $C$ eine Disjunktion wie folgt:</p>
-<p>\begin{equation}
+<div class="math">
+\begin{equation*}
+p \wedge q \Rightarrow q \equiv~ \neg p \vee \neg q \vee q \equiv w
+\end{equation*}
+</div>
+<div class="math">
+\begin{equation*}
+q~ \Rightarrow q \vee r \equiv~ \neg q \vee q \vee r \equiv w
+\end{equation*}
+</div>
+<p><em>Beweis (konstrutiv):</em></p>
+<p><em>Erster Teil</em> ($models A Rightarrow C$). Sei $C$ eine Disjunktion wie folgt:</p>
+<div class="math">
+\begin{equation*}
 C := \bigvee A[c_1,\ldots, c_n]
-\end{equation}</p>
-<p>dabei ersetzen wir die Atome $P_1, \ldots, P_n$ aus $A$, die <em>nicht</em> in $B$ vorkommen durch alle möglichen Kombinationen von Konstanten $c_1,\ldots,c_n \in {w,f}$. Für jede Interpretation $I$ mit $val_I(A) = w$ gilt: $val_I(C)=w$. Denn in der Disjunktion $C$ taucht jede mögliche Kombination der Wahrheitswerte von $P_i$ auf. Der Term der Disjunktion der $C$ wahr macht ist dieser mit:</p>
-<p>\begin{equation}
- A[c_1, \ldots, c_n] \text{mit } c_i = val_I(P_i)
-\end{equation}</p>
-<p><em>Zweiter Teil ($\models C \Rightarrow B$).</em></p>
-<p>Sei $I$ eine Interpretation mit $val_I(C) = w$. Dann ist mind. ein Term der Disjunktion wahr. Wir konstruieren eine Hilfeinterpretation $J$ wie folgt:</p>
-<p>\begin{equation}
-J(P) = \begin{cases}
- c_i &amp; \colon  P = P_i \text{ für } 1\le i \le n \
-I(P) &amp; \colon \text{ sonst}
-\end{cases} 
-\end{equation}</p>
-<p>$J$ ist ein Modell von $C$ und $A$. Nach Vorrausetzung ($A \Rightarrow B$) folgt $val_J(B) = w$. Für alle Atome in $B$ trifft die Interpretation $J$ die gleiche Aussage wie $I$. ($P_i$ waren die Atome aus $P_i \in A \wedge P_i \notin B$). Also folgt $val_I(B) = w$.</p>
-<p><em>Beispiel:</em> Zurück zu unseren Beispiel. Wie konstruieren das $C$ nun nachdem Beweis:</p>
-<p>\begin{equation}
+\end{equation*}
+</div>
+<p>dabei ersetzen wir die Atome <span class="math">\(P_1, \ldots, P_n\)</span>
+ aus $A$, die <em>nicht</em> in $B$ vorkommen durch alle möglichen Kombinationen von Konstanten <span class="math">\(c_1,\ldots,c_n \in \{w,f\}\)</span>
+. Für jede Interpretation $I$ mit $val_I(A) = w$ gilt: $val_I(C)=w$. Denn in der Disjunktion $C$ taucht jede mögliche Kombination der Wahrheitswerte von $P_i$ auf. Der Term der Disjunktion der $C$ wahr macht ist dieser mit:</p>
+<div class="math">
+\begin{equation*}
+A[c_1, \ldots, c_n] \text{ mit } c_i = val_I(P_i)
+\end{equation*}
+</div>
+<p><em>Zweiter Teil</em> (<span class="math">\(\models C \Rightarrow B\)</span>
+).</p>
+<p>Sei $I$ eine Interpretation mit $val_I(C) = w$. Dann ist mind. ein Term der
+Disjunktion wahr. Wir konstruieren eine Hilfeinterpretation $J$ wie folgt:</p>
+<div class="math">
+\begin{equation*}
+J(P) =      \begin{cases}
+            c_i &amp; \colon  P = P_i \text{ für } 1\le i \le n \\
+            I(P) &amp; \colon \text{ sonst}
+            \end{cases}
+\end{equation*}
+</div>
+<p>$J$ ist ein Modell von $C$ und $A$. Nach Vorrausetzung (<span class="math">\(A \Rightarrow B\)</span>
+) folgt
+$val_J(B) = w$. Für alle Atome in $B$ trifft die Interpretation $J$ die gleiche
+Aussage wie $I$. ($P_i$ waren die Atome aus <span class="math">\(P_i \in A \wedge P_i \notin B\)</span>
+).
+Also folgt $val_I(B) = w$.</p>
+<p><strong>Beispiel:</strong> Zurück zu unseren Beispiel. Wie konstruieren das $C$ nun nachdem
+Beweis.</p>
+<div class="math">
+\begin{equation*}
 C := A[p=0] \vee A[p=1] \equiv (0 \wedge q) \vee (1 \wedge q) \equiv q
-\end{equation} </p>
+\end{equation*}
+</div>
     
     <ul class="pager">
+        <li class="previous">
+            <a href="201210organizing-musc.html">← Previous post</a>
+        </li>
         <li class="next">
-            <a href="201305sidenotes-with-latex-and-auctex.html">Next post →</a>
+            <a href="20130405-dempster-shafer-theory.html">Next post →</a>
         </li>
     </ul>
-
-        
-        
-        <div id="disqus_thread"></div>
-        <script type="text/javascript">
-        var disqus_shortname ="nikolademo";
-            var disqus_url="http://stud.ira.uka.de/~uiduw/posts/201210craigsche-interpolationslemma.html";
-        var disqus_title="Craig'sche Interpolation Lemma";
-        var disqus_identifier="cache/posts/201210craigsche-interpolationslemma.html";
-        var disqus_config = function () {
-            this.language = "en";
-        };
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    <a href="http://disqus.com" class="dsq-brlink">Comments powered by <span class="logo-disqus">Disqus</span></a>
-
 
     
         <script src="../assets/js/mathjax.js" type="text/javascript"></script>
 
     </div>
 
-    </div>
-    </div>
-    <!--End of body content-->
-</div>
-<div class="footerbox">
-    Contents © 2013         <a href="mailto:uiduw@student.kit.edu">Alexander Weigl</a>
-</div>
+    <small>Contents © 2013         <a href="mailto:uiduw@student.kit.edu">Alexander Weigl</a></small>
+    
 
-            <script src="../assets/js/jquery-1.10.2.min.js" type="text/javascript"></script>
-            <script src="../assets/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="../assets/js/jquery.colorbox-min.js" type="text/javascript"></script>
-
-
-	
-
-    <script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
-    $(window).on('hashchange', function(){
-        if (location.hash && $(location.hash)[0]) {
-            $('body').animate({scrollTop: $(location.hash).offset().top - $('#navbar').outerHeight(true)*1.2 }, 1);
-        }
-    });
-    $(document).ready(function(){$(window).trigger('hashchange')});
-    </script>
-   
-   
+    
+    
  <script type="text/javascript" src="../assets/js/tipuesearch_set.js"></script>
  <script type="text/javascript" src="../assets/js/tipuesearch.js"></script>
  <script type="text/javascript">

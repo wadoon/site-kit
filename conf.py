@@ -10,7 +10,7 @@ BLOG_AUTHOR = "Alexander Weigl"
 BLOG_TITLE = "weigl::io"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://stud.ira.uka.de/~uiduw"
+SITE_URL = "http://www.student.kit.edu/~uiduw"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://weigl-io.blogspot.com"
@@ -85,6 +85,7 @@ post_pages = (
             ("posts/*.rst", "posts", "post.tmpl", True),
             ("posts/*.md", "posts", "post.tmpl", True),
             ("stories/*.html", "stories", "story.tmpl", False),
+            ("stories/*.md", "stories", "story.tmpl", True),
         )
 
 # One or more folders containing files to be copied as-is into the output.
@@ -169,6 +170,16 @@ post_compilers = {
 # To do manual deployment, set it to []
 # DEPLOY_COMMANDS = []
 
+
+
+DEPLOY_COMMANDS = [
+		'git commit -am "commit before deploy"',
+		'git push',
+		'rsync -rav --delete -e ssh output/* kit:public_html/'
+		]
+
+
+
 # Where the output site should be located
 # If you don't use an absolute path, it will be considered as relative
 # to the location of conf.py
@@ -226,7 +237,7 @@ post_compilers = {
 # translated
 
 # Name of the theme to use.
-# THEME = 'bootstrap'
+THEME = 'mystyle'
 
 # Color scheme to be used for code blocks. If your theme provides
 # "assets/css/code.css" this is ignored.
@@ -356,17 +367,36 @@ COMMENTS_IN_GALLERIES = False
 MATHJAX_CONFIG = """
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
+  TeX: {
+      Macros: {
+            RR: "{\\\\mathbf{R}}",
+	    br: "&",
+            bold: ["{\\\\bf #1}",1]
+      }
+  }
+});
+
+
+MathJax.Hub.Config({
     tex2jax: {
         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
-        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ]
+        displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
+        processEscapes: true,        
     },
     displayAlign: 'center', // Change this to 'center' to center equations.
+    asciimath2jax: {
+         delimiters: [[ '``', '``']]     
+    },
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
     }
 });
 </script>
 """
+
+
+
+		
 
 # What MarkDown extensions to enable?
 # You will also get gist, nikola and podcast because those are
@@ -391,10 +421,10 @@ SOCIAL_BUTTONS_CODE = ""
 # """
 
 # Hide link to source for the posts?
-HIDE_SOURCELINK = False
+#HIDE_SOURCELINK = False
 # Copy the source files for your pages?
 # Setting it to False implies HIDE_SOURCELINK = True
-COPY_SOURCES = True
+#COPY_SOURCES = True
 
 # Modify the number of Post per Index Page
 # Defaults to 10
@@ -447,7 +477,7 @@ RSS_TEASERS = False
 
 SEARCH_FORM = """
  <span class="navbar-form pull-left">
- <input type="text" id="tipue_search_input">
+ <input placeholder="Search" type="text" id="tipue_search_input">
  </span>"""
 
 BODY_END = """
@@ -560,3 +590,8 @@ ENABLED_EXTRAS = [
 # It can be anything, data, functions, modules, etc.
 
 GLOBAL_CONTEXT = { 'nocomments': True}
+
+#from nikola import filters
+#FILTERS = {
+#    ".html": [filters.typogrify],
+#}
