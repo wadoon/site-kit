@@ -1,0 +1,99 @@
+<!--
+	.. title: Latex flow
+	.. date: 2012/07/01
+	.. slug:
+	.. nocomments: True
+Latex-->
+I see many of students, who does not get a good (work) flow in LaTeX. Maybe these tips help you. 
+
+
+### Good packages
+
+  * **showkeys** -- shows the reference keys in \ref and \label statements. A good choice if you use many of them.
+  * **todonotes** -- provides one nice command \todo. This command prints a note on the side and with \listoftodoes you get an index of all todos in the document. 
+
+I use the following shortcuts:
+
+    \renewcommand\question[1]{\todo[inline,color=orange!40]{#1}}
+    \newcommand{\insertref}[1]{\todo[color=green!40]{#1}}x
+    \newcommand{\explainindetail}[1]{\todo[inline,color=red!40]{#1}}
+    \newcommand{\beforepublish}[1]{\todo[inline,color=blue!40]{\textbf{before publish:} #1}}
+
+  * **array** -- for simplier definition of tables formats, especially p{5cm} defines a row width of 5cm and text wrapping.
+  * **mathtools** -- provides many fixes and new commands for typesetting math.
+  * **nomencl** -- for setting a nomenclature (e. g. short definitions)
+  * **microtype** -- only needed to include, makes a better typesetting
+  * **xcolor** -- provides more color names
+  * **multicolumn**-- try this for setting only one paragraph with multicolumns
+  * **flafter** -- this depends on your revisior. In my unviversity the floats should be after the first occurence in the text. This package forces this.
+  * **algorithm2e**-- The mighty package for setting algorithms in LaTeX. If you does not love the syntax you should consider **algorithmic**.
+  * **hyperref** -- a must use for pdf users, generates pdf index and clickable referencen (and much more ...)
+
+### Create new commands and environments
+
+
+It is often useful that you create new comamnds for your needs.  I create shortcuts for often uses phrases and notations. There are two problems with writing new commands. (1) You want to use the commands within or without math mode
+(2) The leading space or non-leading space after the commands. 
+**Solution:** For (1), use \ensuremath{} this put everything of the first parameter into math mode, independent of the outer mode. (2) is the target of the package **xspace**.  This provdes the \xspace command, that only prints a whitespace is not an punctation.
+
+**Example:** For Big-O Notation I use:
+
+    \newcommand\Oh[1]{\ensuremath{\mathcal O(#1)}}
+    \newcommand\mathdef{\ensuremath{=_{\text{\textup{def}}}}}
+
+You can use \Oh{n^3} in the middle of the text or in math mode. and a good symbol for mathematical definition. 
+
+    \newcommand\IF{\textsc{if}\xspace}
+    \newcommand\FOREACH{\textsc{foreach}\xspace}
+
+I often write »\FOREACH-Bedingung« and so on. You can view the syntax of (re)newcommand and (re)newenvironment on every latex webpage. In my papers I typeset a lot things in teletype writer, but this looks very big. So I use that: 
+
+
+    \newcommand{\f}[1]{\begingroup \smaller \texttt{#1} \endgroup}
+
+Mathematical Operator should be declared with \DeclareMathOperator{\first}{first} and written as $\first$ and not $first$. The second means this is one or more variables (variables are always italic). If you use an operator only once, you can consider \operatorname{first}. In my thesis I have defined the following operators:
+
+    \DeclareMathOperator{\Pol}{Pol}
+    \DeclareMathOperator{\BC}{BC}
+    \DeclareMathOperator{\co}{co}
+    \DeclareMathOperator{\BFS}{BFS}
+    \DeclareMathOperator{\ZK}{ZK}
+    \DeclareMathOperator{\sZK}{sZK}
+
+
+### Environments 
+
+A short time ago I read a paper of student for <i>Wissenschaftliches Arbeiten</i>, a lecture on my university. There was a lot of definition, propositions and other things. But not typeset in an appropriate manner. Everything that should be reference or needed later in an article should get a number in a suitable environment. AMS-Math provides for this some environments: proposition, corollar, problem, definition and should be labelled and used. An example:
+
+
+  \begin{definition}[Sternfreie Sprachen]
+    \label{def:sf}
+    Sei $\Sigma$ ein Alphabet. Die sternfreien Sprachen über $\Sigma$, geschrieben $SF_\Sigma$ 
+    bilden die kleinste Klasse von Sprachen über $\Sigma$, die unter folgendem abgeschlossen ist:
+  
+     \begin{itemize}
+        \item $\emptyset$ ist sternfrei
+        \item $\{\varepsilon\}$ ist sternfrei
+        \item $\{a\}$ ist sternfrei für $a\in \Sigma$
+        \item Sind $L, L'$ sternfrei, so auch $L \cdot L', \widebar L, L \cup L'$
+    \end{itemize}
+  \end{definition}
+
+In my thesis I came to **thmtools** because I wanted an index of all my definitions and theorems. 
+
+### Tools
+
+My current editor of choice is emacs + auctex. It has  a steep learning curve but the best features I have seen so far. I know a lot of people using LaTeX-Maker or LaTeX-Studio. These are nice but I miss:
+
+
+  * hard wraps (align-mode)
+  * searchable references view with a kind of intellisense autocompletion
+  * flyspell
+  * easy shortcuts for math symbols 
+  * C-c C-e for new environment
+  * ... 
+
+For compiling my sources I take latexmk. This makes a lot of things easier. It calls bibtex if needed. Checks if the document is needed to compile again. You can plugin your file conversions easily, too. I use it in the continous mode (-pvc -pdf). This starts a recompilation every time one of the source files are changed (tex, images ... ). A difficult point is the creation of pictures for an article. In my opinion produce the **tikz** good results but is too hard to learn and use. I use this only for small picture. For complex ones is inkscape my choice. This is an editor for vector graphics can save the images as PDF. This is important for avoid quality losses in resizing images in latex. I use two screens for editing. On the big screen is the emacs editor with multiple buffers (one or two files and table of contents). The small screen contains a pdf viewer (evince), that refresh the view if the pdf is changed and often an terminal, for things like git or latexmk.
+
+I work with git and dropbox. The first is for revision and tracking changes, the last only for backup and access for other people. 
+

@@ -1,3 +1,7 @@
+cache
+output
+.doit.db
+
 *.py[cod]
 
 # C extensions
