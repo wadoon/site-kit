@@ -6,7 +6,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://www.student.kit.edu/~uiduw/</loc>
-  <lastmod>2013-09-06</lastmod>
+  <lastmod>2013-09-10</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -56,22 +56,77 @@
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/</loc>
-  <lastmod>2013-09-06</lastmod>
+  <lastmod>2013-09-17</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/index.html</loc>
-  <lastmod>2013-09-06</lastmod>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/categories/kit.html</loc>
+  <lastmod>2013-09-17</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/mathjax.html</loc>
-  <lastmod>2013-09-06</lastmod>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/categories/neuronalnet.html</loc>
+  <lastmod>2013-09-17</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/index.html</loc>
-  <lastmod>2013-09-06</lastmod>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/elias.py.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/elias.py~.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/index.html</loc>
+  <lastmod>2013-09-10</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/inequalities.py.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/isodata.gif.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/isodata.ipynb.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/isodata.py.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/listings/mlp-test.py.html</loc>
+  <lastmod>2013-09-10</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
@@ -120,8 +175,23 @@
   <priority>0.5000</priority>
  </url>
  <url>
+  <loc>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/<blockquote>AssertionError: False is not true</blockquote>.html</loc>
   <lastmod>2013-09-10</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</loc>
+  <lastmod>2013-09-17</lastmod>
+  <priority>0.5000</priority>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</loc>
+  <lastmod>2013-09-17</lastmod>
   <priority>0.5000</priority>
  </url>
  <url>
