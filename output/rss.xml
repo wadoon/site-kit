@@ -1,5 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>weigl::io</title><link>http://www.student.kit.edu/~uiduw</link><description> - empty - </description><atom:link href="http://www.student.kit.edu/rss.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Tue, 17 Sep 2013 17:50:24 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>isodata clustering</title><link>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</link><description>&lt;div class="figure align-center"&gt;
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title>weigl::io</title><link>http://www.student.kit.edu/~uiduw/</link><description> - empty - </description><atom:link href="http://www.student.kit.edu/~uiduw/rss.xml" type="application/rss+xml" rel="self"></atom:link><lastBuildDate>Fri, 04 Oct 2013 13:59:23 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Conclusion second Semester (MSc)</title><link>http://www.student.kit.edu/posts/conclusion-2nd-semester-msc.html</link><description>&lt;p&gt;Here my little conclusion of the summer semester 2013.
+It was my second semester at the Karlsruher Institute of Technology in the study path for M.Sc. in Computer Science.&lt;/p&gt;
+&lt;p&gt;I visited the following lectures (I keep the original titles):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;VF 1: Theoretische Grundlagen&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Formale Systeme II&lt;/em&gt; (formal systems) -- nice course with script&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Anwendung formaler Verifikation mit Übung&lt;/em&gt; (applied formal verification) -- could be better, more content and harder excercises should be a good beginning&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Unscharfe Mengen&lt;/em&gt; (fuzzy set/logic) -- a good and theoretical start into fuzzy logic/sets. A split in two lectures (with more content) is planned.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Textindexierung&lt;/em&gt; (text indexing) -- In this year, this was not very deep. The most things was self-explaining.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;VF 14: Kognitive Systeme&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Kognitive Systeme&lt;/em&gt; (cognitive systems)-- [Stammmodule] Overview about speech/image processing and robotics. In my opinion the materials of speech processing should rewritten and the excercises are far far away from the lecture.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Medizinische Simulationssysteme II&lt;/em&gt;   (medical simulation system II) -- a good lecture on a very new topic (for computer scientist)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Neuronale Netze&lt;/em&gt; (neuronal nets) -- I hoped of a more theoretical lecture with more content.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Wahlfach:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Seminar in Ambient Assisted Living -- A seminar of horror.&lt;/li&gt;
+&lt;li&gt;B.1 Science -- An useless english course for me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;EF: Biomedizinische Messtechnik&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik II&lt;/em&gt; -- The same bad lecturing style as the predessor course.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bioelektrische Signale&lt;/em&gt; -- A good course; similiar in style I know from my old university.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;My credit account is 68 credits now. For my third semester I only need
+22 points in addition to my master thesis. But I have a lot of
+constraints to satisfy for seminars and key competences. From the 22
+points I only need to hear 16 points.&lt;/p&gt;
+&lt;p&gt;So my next lectures will be:&lt;/p&gt;
+&lt;p&gt;exam only:
+  * Biomedizinische Messtechnik I  (3 credits)
+  * Biomedizinische Messtechnik II (3 credits)
+  * Fortgeschrittene Datenstrukturen    (5 credits, because I need to get the
+  module full)&lt;/p&gt;
+&lt;p&gt;hearing and exam:
+  * Physologie und Anatomie I  (3 credits)
+  * Praktikum (6 credits)
+  * Seminar (3 credits)
+  * key competences (4 credits)&lt;/p&gt;
+&lt;p&gt;After this I will have 95 credits (five more than needed) and no room
+for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/conclusion-2nd-semester-msc.html</guid><pubDate>Fri, 04 Oct 2013 11:24:24 GMT</pubDate></item><item><title>isodata clustering</title><link>http://www.student.kit.edu/posts/isodata-clustering.html</link><description>&lt;div class="figure align-center"&gt;
 &lt;img alt="alternate text" src="http://www.student.kit.edu/images/isodata.gif" style="width: 400px;"&gt;
 &lt;p class="caption"&gt;The decision function&lt;/p&gt;
 &lt;/div&gt;
@@ -123,7 +175,7 @@
 
 &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'convert -delay 100 *.png isodata.gif'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'rm *.png'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</guid><pubDate>Tue, 17 Sep 2013 16:40:28 GMT</pubDate></item><item><title>Elias Code Generation</title><link>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</link><description>&lt;p&gt;Simple python script for generating elias-&lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
+&lt;/pre&gt;</description><guid>http://www.student.kit.edu/posts/isodata-clustering.html</guid><pubDate>Tue, 17 Sep 2013 16:40:28 GMT</pubDate></item><item><title>Elias Code Generation</title><link>http://www.student.kit.edu/posts/20130917-elias-code.html</link><description>&lt;p&gt;Simple python script for generating elias-&lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
 , &lt;span class="math"&gt;\(\delta\)&lt;/span&gt;
 , unary and golomb codes.
 Here is an example output with &lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
@@ -180,7 +232,7 @@ $ python elias.py
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;	
 	&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="si"&gt;%5d&lt;/span&gt;&lt;span class="s"&gt;: &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; \
 		&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;elias_gamma&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;elias_delta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;golomb&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><category>mathjax</category><guid>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</guid><pubDate>Tue, 17 Sep 2013 16:35:00 GMT</pubDate></item><item><title>Multi Layer Perceptron</title><link>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</link><description>&lt;p&gt;Just a simple demonstration for a multilayer perceptron.&lt;/p&gt;
+&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><category>mathjax</category><guid>http://www.student.kit.edu/posts/20130917-elias-code.html</guid><pubDate>Tue, 17 Sep 2013 16:35:00 GMT</pubDate></item><item><title>Multi Layer Perceptron</title><link>http://www.student.kit.edu/posts/multi-layer-perceptron.html</link><description>&lt;p&gt;Just a simple demonstration for a multilayer perceptron.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
 &lt;img alt="alternate text" src="http://www.student.kit.edu/images/mlp1.png" style="width: 400px;"&gt;
 &lt;p class="caption"&gt;The decision function&lt;/p&gt;
@@ -222,7 +274,7 @@ $ python elias.py
 &lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;space&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;space&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'mlp1.png'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><guid>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</guid><pubDate>Tue, 10 Sep 2013 20:41:04 GMT</pubDate></item><item><title>Sidenotes with LateX and Auctex</title><link>http://www.student.kit.edu/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</link><description>&lt;p&gt;I often use the following Latex snippet for creating small notes (like
+&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><guid>http://www.student.kit.edu/posts/multi-layer-perceptron.html</guid><pubDate>Tue, 10 Sep 2013 20:41:04 GMT</pubDate></item><item><title>Sidenotes with LateX and Auctex</title><link>http://www.student.kit.edu/posts/201305sidenotes-with-latex-and-auctex.html</link><description>&lt;p&gt;I often use the following Latex snippet for creating small notes (like
 paragraphs headings) for the reader's orientation: &lt;/p&gt;
 &lt;div class="code"&gt;&lt;pre&gt;\newcommand\sidenote[1]{\marginpar{{\small \textsf{\textbf{#1}}}}}
 &lt;/pre&gt;&lt;/div&gt;
@@ -289,8 +341,8 @@ symbol with a bound function will be called by the macro mandatory arguments.&lt
              &lt;span class="s"&gt;"subsection"&lt;/span&gt; &lt;span class="s"&gt;"subsubsection"&lt;/span&gt; &lt;span class="s"&gt;"paragraph"&lt;/span&gt; &lt;span class="s"&gt;"subparagraph"&lt;/span&gt;
              &lt;span class="s"&gt;"emph"&lt;/span&gt; &lt;span class="s"&gt;"textit"&lt;/span&gt; &lt;span class="s"&gt;"textsl"&lt;/span&gt; &lt;span class="s"&gt;"textmd"&lt;/span&gt; &lt;span class="s"&gt;"textrm"&lt;/span&gt; &lt;span class="s"&gt;"textsf"&lt;/span&gt;
              &lt;span class="s"&gt;"texttt"&lt;/span&gt; &lt;span class="s"&gt;"textbf"&lt;/span&gt; &lt;span class="s"&gt;"textsc"&lt;/span&gt; &lt;span class="s"&gt;"textup"&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</guid><pubDate>Wed, 01 May 2013 00:00:00 GMT</pubDate></item><item><title>Semester conclusion: 1 M.Sc. KIT</title><link>http://www.student.kit.edu/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</link><description>&lt;p&gt;Here my little conclusion of the last semester (WS12/13). My first semester at
-the Karlsruher Institute of Technology in the study path for M.Sc. &lt;/p&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><guid>http://www.student.kit.edu/posts/201305sidenotes-with-latex-and-auctex.html</guid><pubDate>Wed, 01 May 2013 00:00:00 GMT</pubDate></item><item><title>Semester conclusion: 1 M.Sc. KIT</title><link>http://www.student.kit.edu/posts/conclusion-1st-semester-msc.html</link><description>&lt;p&gt;Here my little conclusion of the last semester (WS12/13). My first semester at
+the Karlsruher Institute of Technology in the study path for M.Sc.&lt;/p&gt;
 &lt;p&gt;My lectures were:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -336,14 +388,14 @@ overview&lt;/p&gt;
 &lt;li&gt;
 &lt;p&gt;EF: Biomedizinische Messtechnik&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik I&lt;/em&gt; -- should be interresting, but was boring - docent was not well prepared* &lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik I&lt;/em&gt; -- should be interresting, but was boring - docent was not well prepared*&lt;/li&gt;
 &lt;li&gt;&lt;em&gt;Bildgebende Verfahren der Medizin I&lt;/em&gt; -- a very fast speed during the lecture and high workload for 3 ECTS.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;I visited courses for 32 ECTS. I did exam in 27 ECTS. 
+&lt;p&gt;I visited courses for 32 ECTS. I did exam in 27 ECTS.
 In conclusion: The workload is not presented in ECTS well. The exams are based
-upon powerpoint slides, so you learn stupid bullet points.&lt;/p&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</guid><pubDate>Tue, 23 Apr 2013 23:04:00 GMT</pubDate></item><item><title>Dempster-Shafer-Theory</title><link>http://www.student.kit.edu/~uiduw/posts/20130405-dempster-shafer-theory.html</link><description>&lt;p&gt;I got bored. The result is a lousy implementation of the dempster recombination
+upon powerpoint slides, so you learn stupid bullet points.&lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/conclusion-1st-semester-msc.html</guid><pubDate>Tue, 23 Apr 2013 23:04:00 GMT</pubDate></item><item><title>Dempster-Shafer-Theory</title><link>http://www.student.kit.edu/posts/20130405-dempster-shafer-theory.html</link><description>&lt;p&gt;I got bored. The result is a lousy implementation of the dempster recombination
 rule (dcr) in dempster-shafer theory (dct).&lt;/p&gt;
 &lt;p&gt;The dct describes system of base function to bind uncertainty to specific events
 (similar to Kolgomorov axioms). But the formulation of uncertainty is a kind
@@ -461,7 +513,7 @@ s3 = DictWrap({ A: 0.2, B: 0.3, C: 0.5})
 fusion = drc(fusion,s3)
 
 show('A', A); show('B', B); show('C', C); show('O', OMEGA)
-&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/~uiduw/posts/20130405-dempster-shafer-theory.html</guid><pubDate>Wed, 03 Apr 2013 00:00:00 GMT</pubDate></item><item><title>Craig'sche Interpolation Lemma</title><link>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</link><description>&lt;p&gt;&lt;strong&gt;Satz:&lt;/strong&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/posts/20130405-dempster-shafer-theory.html</guid><pubDate>Wed, 03 Apr 2013 00:00:00 GMT</pubDate></item><item><title>Craig'sche Interpolation Lemma</title><link>http://www.student.kit.edu/posts/201210craigsche-interpolationslemma.html</link><description>&lt;p&gt;&lt;strong&gt;Satz:&lt;/strong&gt;
 Seien $A,B$ zwei aussagenlogische Formeln und es gilt &lt;span class="math"&gt;\(\models A \Rightarrow B\)&lt;/span&gt;
  (Tautologie), dann existiert eine aussagenlogische Formeln $C$, sodass&lt;/p&gt;
 &lt;div class="math"&gt;
@@ -524,7 +576,7 @@ Beweis.&lt;/p&gt;
 \begin{equation*}
 C := A[p=0] \vee A[p=1] \equiv (0 \wedge q) \vee (1 \wedge q) \equiv q
 \end{equation*}
-&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</guid><pubDate>Thu, 18 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Organizing Music</title><link>http://www.student.kit.edu/~uiduw/posts/201210organizing-musc.html</link><description>&lt;p&gt;Do want to reorganize your music collection, but Amarok or other players are to
+&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/posts/201210craigsche-interpolationslemma.html</guid><pubDate>Thu, 18 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Organizing Music</title><link>http://www.student.kit.edu/posts/201210organizing-musc.html</link><description>&lt;p&gt;Do want to reorganize your music collection, but Amarok or other players are to
 hard wired? I got this problem with LP from different artists, that would be
 spread other the whole collection. So here is a little script for reorganizing
 music collection, based on the database written by rhythmbox.&lt;/p&gt;
@@ -767,7 +819,7 @@ music collection, based on the database written by rhythmbox.&lt;/p&gt;
 
 &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Linked %d files"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;COUNTER&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/201210organizing-musc.html</guid><pubDate>Mon, 01 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Latex flow</title><link>http://www.student.kit.edu/~uiduw/posts/201207latex-flow.html</link><description>&lt;h4&gt;Good packages&lt;/h4&gt;
+&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><guid>http://www.student.kit.edu/posts/201210organizing-musc.html</guid><pubDate>Mon, 01 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Latex flow</title><link>http://www.student.kit.edu/posts/201207latex-flow.html</link><description>&lt;h4&gt;Good packages&lt;/h4&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;showkeys&lt;/strong&gt; -- shows the reference keys in \ref and \label statements. A good choice if you use many of them.&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;todonotes&lt;/strong&gt; -- provides one nice command \todo. This command prints a note on the side and with \listoftodoes you get an index of all todos in the document. &lt;/li&gt;
@@ -845,7 +897,4 @@ music collection, based on the database written by rhythmbox.&lt;/p&gt;
 &lt;li&gt;... &lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;For compiling my sources I take latexmk. This makes a lot of things easier. It calls bibtex if needed. Checks if the document is needed to compile again. You can plugin your file conversions easily, too. I use it in the continous mode (-pvc -pdf). This starts a recompilation every time one of the source files are changed (tex, images ... ). A difficult point is the creation of pictures for an article. In my opinion produce the &lt;strong&gt;tikz&lt;/strong&gt; good results but is too hard to learn and use. I use this only for small picture. For complex ones is inkscape my choice. This is an editor for vector graphics can save the images as PDF. This is important for avoid quality losses in resizing images in latex. I use two screens for editing. On the big screen is the emacs editor with multiple buffers (one or two files and table of contents). The small screen contains a pdf viewer (evince), that refresh the view if the pdf is changed and often an terminal, for things like git or latexmk.&lt;/p&gt;
-&lt;p&gt;I work with git and dropbox. The first is for revision and tracking changes, the last only for backup and access for other people. &lt;/p&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/201207latex-flow.html</guid><pubDate>Sun, 01 Jul 2012 00:00:00 GMT</pubDate></item><item><title>Python is always right</title><link>http://www.student.kit.edu/~uiduw/posts/&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;.html</link><description>&lt;p&gt;I love Python,because it is right sometimes:&lt;/p&gt;
-&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;
-
-&lt;p&gt;A nice message of a positive test case.&lt;/p&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/&lt;blockquote&gt;AssertionError: False is not true&lt;/blockquote&gt;.html</guid><pubDate>Mon, 04 Jun 2012 23:06:00 GMT</pubDate></item></channel></rss>
+&lt;p&gt;I work with git and dropbox. The first is for revision and tracking changes, the last only for backup and access for other people. &lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/201207latex-flow.html</guid><pubDate>Sun, 01 Jul 2012 00:00:00 GMT</pubDate></item></channel></rss>

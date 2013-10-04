@@ -10,7 +10,7 @@ BLOG_AUTHOR = "Alexander Weigl"
 BLOG_TITLE = "weigl::io"
 # This is the main URL for your site. It will be used
 # in a prominent link
-SITE_URL = "http://www.student.kit.edu/~uiduw"
+SITE_URL = "http://www.student.kit.edu/~uiduw/"
 # This is the URL where nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "http://weigl-io.blogspot.com"
@@ -81,12 +81,15 @@ NAVIGATION_LINKS = {
 # rss feeds.
 #
 
-post_pages = (
-            ("posts/*.rst", "posts", "post.tmpl", True),
-            ("posts/*.md", "posts", "post.tmpl", True),
-            ("stories/*.html", "stories", "story.tmpl", False),
-            ("stories/*.md", "stories", "story.tmpl", True),
-        )
+POSTS = (
+    ("posts/*.rst", "posts", "post.tmpl"),
+    ("posts/*.md", "posts", "post.tmpl"),
+)
+
+PAGES = (
+    ("stories/*.html", "stories", "story.tmpl"),
+    ("stories/*.md", "stories",  "story.tmpl")
+)
 
 # One or more folders containing files to be copied as-is into the output.
 # The format is a dictionary of "source" "relative destination".
@@ -103,12 +106,12 @@ FILES_FOLDERS = {'images':'images'}
 # 'rest' is reStructuredText
 # 'markdown' is MarkDown
 # 'html' assumes the file is html and just copies it
-post_compilers = {
+COMPILERS = {
     "rest": ('.txt', '.rst'),
     "markdown": ('.md', '.mdown', '.markdown', '.wp'),
     "html": ('.html', '.htm')
 }
-        
+
 
 # Create by default posts in one file format?
 # Set to False for two-file posts, with separate metadata.
@@ -383,11 +386,11 @@ MathJax.Hub.Config({
     tex2jax: {
         inlineMath: [ ['$','$'], ["\\\(","\\\)"] ],
         displayMath: [ ['$$','$$'], ["\\\[","\\\]"] ],
-        processEscapes: true,        
+        processEscapes: true,
     },
     displayAlign: 'center', // Change this to 'center' to center equations.
     asciimath2jax: {
-         delimiters: [[ '``', '``']]     
+         delimiters: [[ '``', '``']]
     },
     "HTML-CSS": {
         styles: {'.MathJax_Display': {"margin": 0}}
@@ -398,7 +401,7 @@ MathJax.Hub.Config({
 
 
 
-		
+
 
 # What MarkDown extensions to enable?
 # You will also get gist, nikola and podcast because those are
