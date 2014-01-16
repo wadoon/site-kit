@@ -5,218 +5,163 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://www.student.kit.edu/~uiduw/</loc>
-  <lastmod>2013-09-10</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/2000/</loc>
-  <lastmod>2013-09-06</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
   <loc>http://www.student.kit.edu/~uiduw/2000/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/2011/</loc>
-  <lastmod>2013-09-06</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/2011/index.html</loc>
   <lastmod>2013-09-06</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/2012/</loc>
-  <lastmod>2013-09-06</lastmod>
-  <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/2012/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/2013/</loc>
-  <lastmod>2013-09-06</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/2013/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/archive.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/categories/</loc>
-  <lastmod>2013-09-17</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/kit.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/categories/kit.xml</loc>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/mathjax.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/categories/mathjax.xml</loc>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/categories/neuronalnet.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/categories/neuronalnet.xml</loc>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
- </url>
- <url>
-  <loc>http://www.student.kit.edu/~uiduw/listings/</loc>
-  <lastmod>2013-09-17</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/elias.py.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/elias.py~.html</loc>
   <lastmod>2013-09-17</lastmod>
-  <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/index.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/inequalities.py.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/isodata.gif.html</loc>
   <lastmod>2013-09-17</lastmod>
-  <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/isodata.ipynb.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/isodata.py.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/listings/mlp-test.py.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201205now-my-latexmkrc-ist-complete-for-my.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201206bewerbung-msc-cs.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201207latex-flow.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201210organizing-musc.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/20130405-dempster-shafer-theory.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201304a-little-python-script-to-visualize.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201304semestarabschluss-1-msc-kit.html</loc>
   <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/201305sidenotes-with-latex-and-auctex.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/<blockquote>AssertionError: False is not true</blockquote>.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/conclusion-1st-semester-msc.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/conclusion-2nd-semester-msc.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
+ </url>
+ <url>
+  <loc>http://www.student.kit.edu/~uiduw/rss.xml</loc>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/stories/tla.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/stories/tp.html</loc>
-  <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
+  <lastmod>2014-01-10</lastmod>
  </url>
  <url>
   <loc>http://www.student.kit.edu/~uiduw/tipue_search.html</loc>
   <lastmod>2013-10-04</lastmod>
-  <priority>0.5000</priority>
  </url>
 </urlset>

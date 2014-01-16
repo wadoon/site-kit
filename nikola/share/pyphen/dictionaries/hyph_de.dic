@@ -5,7 +5,7 @@ ISO8859-1
 #                                                                                  #
 # Language: German (de DE)                                                         #
 #                                                                                  #
-# Version:  2012-06-09                                                             #
+# Version:  2013-12-06                                                             #
 #           Enhanced blacklist to improve the hyphenation module by Karl Zeiler    #
 #                                                                                  #
 # Origin:   Based on the TeX hyphenation tables	"dehyphn.tex", revision level 31.  #
@@ -17,8 +17,9 @@ ISO8859-1
 #           GNU Lesser General Public License (LGPL 2 or later) and are under      #
 #           Copyright by                                                           #
 #                                                                                  #
-# Author:   conversion author: Marco Huggenberger<marco@by-night.ch>               #
-#           revised conversion and extensions: Daniel Naber                        #
+# Authors:  conversion author: Marco Huggenberger <marco@by-night.ch>              #
+#           revised conversion and extensions: Daniel Naber <naber@danielnaber.de> #
+#           improvements: Karl Zeiler <karl.zeiler@t-online.de>                    #
 #                                                                                  #
 # Please note, this dictionary is based on syllable matching patterns              #
 # and thus should be suitable under other variations of German                     #
@@ -7548,11 +7549,23 @@ ol1ler
 olle2rn
 berg7a8n7sicht
 berg7a8n7sich7ten
+bi7lan8z7er7stel7lung
+bi7lan8z7er7stel7lun7gen
+bi7lan8z7auf7stel7lung
+bi7lan8z7auf7stel7lun7gen
+Bun7de8s7ar7chiv
+Bun7de8s7ar7chi7ve
+Bun7de8s7ar7chi7ven
+Bun7de8s7ar7chivs
 du7el8l7op7fer
 du7el8l7op7fern
 du7el8l7op7fers
 farb7a8n7sicht
 farb7a8n7sich7ten
+fas8s7an7stich
+fas8s7an7stichs
+fet8t7ab7sau7gung
+fet8t7ab7sau7gun7gen
 fi7n8anz7amt
 fi7n8anz7amts
 fi7n8anz7äm7ter
@@ -7601,7 +7614,15 @@ hau8s7in7ter7ne
 hau8s7in7ter7nem
 hau8s7in7ter7nen
 hau8s7in7ter7ner
+in7sol7ven8z7an7trag
+in7sol7ven8z7an7trags
+in7sol7ven8z7an7trä7ge
+in7sol7ven8z7an7trä7gen
+in7sol7ven8z7er7öff7nung
+in7sol7ven8z7er7öff7nun7gen
 jo7se8phs7stadt
+kom7pe7ten8z7er7war7tung
+kom7pe7ten8z7er7war7tun7gen
 krei8s7amt
 krei8s7amts
 krei8s7äm7ter
@@ -7633,6 +7654,10 @@ krei8s7in7ter7nes
 kri7ti8k7an7satz
 kri7ti8k7an7sat7zes
 kri7ti8k7an7sät7ze
+ku7lan8z7an7trag
+ku7lan8z7an7trags
+ku7lan8z7an7träge
+ku7lan8z7an7trä7gen
 lack7an7strich
 lack7an7strichs
 lack7an7stri7che
@@ -7660,6 +7685,7 @@ me7cha7ni8k7an7trieb
 me7cha7ni8k7an7trie7be
 me7cha7ni8k7an7trie7ben
 me7cha7ni8k7an7triebs
+me7di7e8n7er7zie7hung
 me7di7e8n7in7ves7tor
 me7di7e8n7in7ves7tors
 me7di7e8n7in7ves7to7ren
@@ -7722,6 +7748,12 @@ max-planc8k-in7sti7tut
 max-planc8k-in7sti7tuts
 max-planc8k-in7sti7tu7te
 max-planc8k-in7sti7tu7ten
+prä7g8nant
+prä7g8nan7te
+prä7g8nant7tem
+prä7g8nant7ten
+prä7g8nant7ter
+prä7g8nant7tes
 prä7g8nanz
 rest7al7ko7hol
 rest7al7ko7ho7le
