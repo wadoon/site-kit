@@ -1,75 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>weigl::io</title><link>http://www.student.kit.edu/~uiduw/</link><description> - empty - </description><atom:link href="http://www.student.kit.edu/~uiduw/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Fri, 10 Jan 2014 03:22:47 GMT</lastBuildDate><generator>nikola</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Conclusion second semester (MSc)</title><link>http://www.student.kit.edu/posts/conclusion-2nd-semester-msc.html</link><description>&lt;p&gt;Here my little conclusion of the summer semester 2013.
-It was my second semester at the Karlsruher Institute of Technology in the study path for M.Sc. in Computer Science.&lt;/p&gt;
-&lt;p&gt;I visited the following lectures (I keep the original titles):&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;VF 1: Theoretische Grundlagen&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Formale Systeme II&lt;/em&gt; (formal systems) -- nice course with script&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Anwendung formaler Verifikation mit Übung&lt;/em&gt; (applied formal verification) -- could be better, more content and harder excercises should be a good beginning&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Unscharfe Mengen&lt;/em&gt; (fuzzy set/logic) -- a good and theoretical start into fuzzy logic/sets. A split in two lectures (with more content) is planned.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Textindexierung&lt;/em&gt; (text indexing) -- In this year, this was not very deep. The most things was self-explaining.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;VF 14: Kognitive Systeme&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Kognitive Systeme&lt;/em&gt; (cognitive systems)-- [Stammmodule] Overview about speech/image processing and robotics. In my opinion the materials of speech processing should rewritten and the excercises are far far away from the lecture.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Medizinische Simulationssysteme II&lt;/em&gt;   (medical simulation system II) -- a good lecture on a very new topic (for computer scientist)&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Neuronale Netze&lt;/em&gt; (neuronal nets) -- I hoped of a more theoretical lecture with more content.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wahlfach:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Seminar in Ambient Assisted Living -- A seminar of horror.&lt;/li&gt;
-&lt;li&gt;B.1 Science -- An useless english course for me.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;EF: Biomedizinische Messtechnik&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik II&lt;/em&gt; -- The same bad lecturing style as the predessor course.&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bioelektrische Signale&lt;/em&gt; -- A good course; similiar in style I know from my old university.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;My credit account is 68 credits now. For my third semester I only need
-22 points in addition to my master thesis. But I have a lot of
-constraints to satisfy for seminars and key competences. From the 22
-points I only need to hear 16 points.&lt;/p&gt;
-&lt;p&gt;So my next lectures will be:&lt;/p&gt;
-&lt;p&gt;exam only:
-  * Biomedizinische Messtechnik I  (3 credits)
-  * Biomedizinische Messtechnik II (3 credits)
-  * Fortgeschrittene Datenstrukturen    (5 credits, because I need to get the
-  module full)&lt;/p&gt;
-&lt;p&gt;hearing and exam:
-  * Physologie und Anatomie I  (3 credits)
-  * Praktikum (6 credits)
-  * Seminar (3 credits)
-  * key competences (4 credits)&lt;/p&gt;
-&lt;p&gt;After this I will have 95 credits (five more than needed) and no room
-for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/conclusion-2nd-semester-msc.html</guid><pubDate>Fri, 04 Oct 2013 11:24:24 GMT</pubDate></item><item><title>isodata clustering</title><link>http://www.student.kit.edu/posts/isodata-clustering.html</link><description>&lt;div class="figure align-center"&gt;
-&lt;img alt="alternate text" src="http://www.student.kit.edu/images/isodata.gif" style="width: 400px;"&gt;
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>weigl::io</title><link>http://www.student.kit.edu/~uiduw/</link><description></description><language>en</language><lastBuildDate>Wed, 16 Apr 2014 02:35:30 GMT</lastBuildDate><generator>http://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>isodata clustering</title><link>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</link><dc:creator>Alexander Weigl</dc:creator><description>&lt;div&gt;&lt;div class="figure align-center"&gt;
+&lt;img alt="alternate text" src="http://www.student.kit.edu/~uiduw/f/isodata.gif" style="width: 400px;"&gt;
 &lt;p class="caption"&gt;The decision function&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a class="reference external" href="link://listing/isodata.py"&gt;isodata.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.student.kit.edu/~uiduw/listings/isodata.py.html"&gt;isodata.py&lt;/a&gt;&lt;/p&gt;
 &lt;pre class="code python literal-block"&gt;
 &lt;span class="c"&gt;# -*- coding: utf-8 -*-&lt;/span&gt;
 
 &lt;span class="c"&gt;# # Berechnung von IsoData (Unsupervised Learning)&lt;/span&gt;
-&lt;span class="c"&gt;# &lt;/span&gt;
+&lt;span class="c"&gt;#&lt;/span&gt;
 &lt;span class="c"&gt;# 0. generate data&lt;/span&gt;
-&lt;span class="c"&gt;# 1. guess mu_i &lt;/span&gt;
-&lt;span class="c"&gt;# 2. classify &lt;/span&gt;
+&lt;span class="c"&gt;# 1. guess mu_i&lt;/span&gt;
+&lt;span class="c"&gt;# 2. classify&lt;/span&gt;
 &lt;span class="c"&gt;# 3. adapt mu_i&lt;/span&gt;
 &lt;span class="c"&gt;# 4. -&amp;gt; 2&lt;/span&gt;
 
 
 
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="nn"&gt;sys&lt;/span&gt; 
+&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="nn"&gt;sys&lt;/span&gt;
 &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;numpy&lt;/span&gt; &lt;span class="kn"&gt;as&lt;/span&gt; &lt;span class="nn"&gt;np&lt;/span&gt;
 &lt;span class="kn"&gt;from&lt;/span&gt;   &lt;span class="nn"&gt;matplotlib.pylab&lt;/span&gt; &lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="o"&gt;*&lt;/span&gt;
 
@@ -82,7 +30,7 @@ for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.stude
  &lt;span class="n"&gt;newClass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[[&lt;/span&gt;&lt;span class="mf"&gt;0.4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0.5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
  &lt;span class="n"&gt;newClass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;7&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[[&lt;/span&gt;&lt;span class="mf"&gt;0.4&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.3&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;
 &lt;span class="c"&gt;# newClass( [ 8, 6] , [[0.4,0.1], [0.6, 0.3] ], 20),&lt;/span&gt;
-&lt;span class="c"&gt;# newClass( [ 5, 1] , [[0.4,0.1], [0.2, 0.3] ], 20), &lt;/span&gt;
+&lt;span class="c"&gt;# newClass( [ 5, 1] , [[0.4,0.1], [0.2, 0.3] ], 20),&lt;/span&gt;
 &lt;span class="c"&gt;# newClass( [ 1, 4] , [[0.3,0.1], [0.3, 0.3] ], 20),&lt;/span&gt;
  &lt;span class="n"&gt;newClass&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="p"&gt;[[&lt;/span&gt;&lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mf"&gt;0.1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mf"&gt;0.6&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mf"&gt;0.2&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="mi"&gt;20&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;))&lt;/span&gt;
 
@@ -100,7 +48,7 @@ for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.stude
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;classify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;classes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;ones&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;enumerate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;      
+    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;enumerate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="n"&gt;classes&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;classes&lt;/span&gt;
 
@@ -108,11 +56,11 @@ for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.stude
     &lt;span class="n"&gt;classes&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;classify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)):&lt;/span&gt;
         &lt;span class="n"&gt;data_index&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;classes&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt;
-        
+
         &lt;span class="n"&gt;data_i&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;data&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;data_index&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
         &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;np&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;size&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data_i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
             &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,:]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mean&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;data_i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-        
+
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;distortion&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
@@ -121,37 +69,37 @@ for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.stude
         &lt;span class="n"&gt;clazz&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="p"&gt;:]&lt;/span&gt;
         &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="nb"&gt;sum&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;clazz&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt;
-        
-       
+
+
 
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;vis&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;itern&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="n"&gt;C&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;classify&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-    &lt;span class="n"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt; 
+    &lt;span class="n"&gt;figure&lt;/span&gt;&lt;span class="p"&gt;();&lt;/span&gt;
     &lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Iteration: &lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s"&gt;, Distortion: &lt;/span&gt;&lt;span class="si"&gt;%5.2f&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;itern&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;distortion&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="n"&gt;xlim&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;));&lt;/span&gt; &lt;span class="n"&gt;ylim&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
 
     &lt;span class="n"&gt;scatter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt;  &lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;C&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;  &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;100&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="n"&gt;scatter&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;[:,&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="mi"&gt;200&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;classes&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;marker&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;'+'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    
+
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;vis_paths&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
     &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;t&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
         &lt;span class="n"&gt;mu_cur&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mu_next&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;t&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-            
+
         &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;c&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;classes&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
             &lt;span class="n"&gt;cur&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mu_cur&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;,:]&lt;/span&gt;
             &lt;span class="nb"&gt;next&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;mu_next&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;,:]&lt;/span&gt;
 
             &lt;span class="n"&gt;velo&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;next&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="n"&gt;cur&lt;/span&gt;
-    
+
             &lt;span class="n"&gt;x_cur&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_cur&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;cur&lt;/span&gt;
             &lt;span class="n"&gt;x_next&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_next&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;velo&lt;/span&gt;
 
             &lt;span class="n"&gt;arrow&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;x_cur&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_cur&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x_next&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;y_next&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;fc&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;'k'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;ec&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="s"&gt;'k'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;color&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="n"&gt;cm&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;hot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;c&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;&lt;span class="c"&gt;# head_width=0.1, head_length=0.3)&lt;/span&gt;
           &lt;span class="c"&gt;#  print(c,":", x_cur, y_cur, x_next, y_next)&lt;/span&gt;
 
-            
+
 
 
 &lt;span class="n"&gt;mu&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;newClass&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="p"&gt;[[&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;],[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;]],&lt;/span&gt; &lt;span class="n"&gt;classes&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
@@ -161,21 +109,21 @@ for Medizinische Simulations I+II.&lt;/p&gt;</description><guid>http://www.stude
 &lt;span class="c"&gt;#classify(X,mu)&lt;/span&gt;
 &lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"000.png"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
-&lt;span class="n"&gt;mu_hist&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; 
+&lt;span class="n"&gt;mu_hist&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
 &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="mi"&gt;22&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="n"&gt;mu&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;recalculate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;copy&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;  
+    &lt;span class="n"&gt;mu&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;recalculate&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;X&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;copy&lt;/span&gt;&lt;span class="p"&gt;())&lt;/span&gt;
     &lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
     &lt;span class="n"&gt;vis&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;mu&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
     &lt;span class="n"&gt;vis_paths&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="si"&gt;%03d&lt;/span&gt;&lt;span class="s"&gt;.png"&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;	
+    &lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="si"&gt;%03d&lt;/span&gt;&lt;span class="s"&gt;.png"&lt;/span&gt;&lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
     &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="n"&gt;mu_hist&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;all&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
         &lt;span class="k"&gt;break&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 
 &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'convert -delay 100 *.png isodata.gif'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;system&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'rm *.png'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;</description><guid>http://www.student.kit.edu/posts/isodata-clustering.html</guid><pubDate>Tue, 17 Sep 2013 16:40:28 GMT</pubDate></item><item><title>Elias Code Generation</title><link>http://www.student.kit.edu/posts/20130917-elias-code.html</link><description>&lt;p&gt;Simple python script for generating elias-&lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><guid>http://www.student.kit.edu/~uiduw/posts/isodata-clustering.html</guid><pubDate>Tue, 17 Sep 2013 16:40:28 GMT</pubDate></item><item><title>Elias Code Generation</title><link>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</link><dc:creator>Alexander Weigl</dc:creator><description>&lt;div&gt;&lt;p&gt;Simple python script for generating elias-&lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
 , &lt;span class="math"&gt;\(\delta\)&lt;/span&gt;
 , unary and golomb codes.
 Here is an example output with &lt;span class="math"&gt;\(\gamma\)&lt;/span&gt;
@@ -194,7 +142,7 @@ $ python elias.py
 8: 11110000   : 111000000  : 0001000
 9: 11110001   : 111000001  : 0001001
 &lt;/pre&gt;
-&lt;p&gt;&lt;a class="reference external" href="link://listing/elias.py"&gt;elias.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.student.kit.edu/~uiduw/listings/elias.py.html"&gt;elias.py&lt;/a&gt;&lt;/p&gt;
 &lt;pre class="code python literal-block"&gt;
 &lt;span class="c"&gt;#!/usr/bin/python&lt;/span&gt;
 
@@ -203,41 +151,41 @@ $ python elias.py
 &lt;span class="n"&gt;log2&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;log&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;binary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-	&lt;span class="n"&gt;fmt&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'{0:0&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s"&gt;b}'&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;
-	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fmt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;fmt&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;'{0:0&lt;/span&gt;&lt;span class="si"&gt;%d&lt;/span&gt;&lt;span class="s"&gt;b}'&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;fmt&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;format&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;unary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="s"&gt;'1'&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="s"&gt;'0'&lt;/span&gt;
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="s"&gt;'1'&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="s"&gt;'0'&lt;/span&gt;
 
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;elias_generic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lencoding&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-	&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;'0'&lt;/span&gt;
-	
-	&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-	&lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
-	
-	&lt;span class="n"&gt;k&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;==&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="s"&gt;'0'&lt;/span&gt;
 
-	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;lencoding&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;binary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-	
+        &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+        &lt;span class="n"&gt;a&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt; &lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+
+        &lt;span class="n"&gt;k&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;lencoding&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;binary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;a&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
 &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;golomb&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-	&lt;span class="n"&gt;q&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-	&lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-	&lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ceil&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
+        &lt;span class="n"&gt;q&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;/&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;r&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+        &lt;span class="n"&gt;l&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ceil&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;log2&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;b&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
 
-	&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;unary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;binary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-	
+        &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;unary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;q&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="n"&gt;binary&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;r&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;l&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+
 &lt;span class="n"&gt;elias_gamma&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;elias_generic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;unary&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;elias_delta&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;elias_generic&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;elias_gamma&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;x&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-	
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;	
-	&lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="si"&gt;%5d&lt;/span&gt;&lt;span class="s"&gt;: &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; \
-		&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;elias_gamma&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;elias_delta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;golomb&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><category>mathjax</category><guid>http://www.student.kit.edu/posts/20130917-elias-code.html</guid><pubDate>Tue, 17 Sep 2013 16:35:00 GMT</pubDate></item><item><title>Multi Layer Perceptron</title><link>http://www.student.kit.edu/posts/multi-layer-perceptron.html</link><description>&lt;p&gt;Just a simple demonstration for a multilayer perceptron.&lt;/p&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;10&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+        &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;"&lt;/span&gt;&lt;span class="si"&gt;%5d&lt;/span&gt;&lt;span class="s"&gt;: &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt; : &lt;/span&gt;&lt;span class="si"&gt;%-10s&lt;/span&gt;&lt;span class="s"&gt;"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; \
+                &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;elias_gamma&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt;&lt;span class="n"&gt;elias_delta&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="n"&gt;golomb&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;50&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><category>KIT</category><category>NeuronalNet</category><category>mathjax</category><guid>http://www.student.kit.edu/~uiduw/posts/20130917-elias-code.html</guid><pubDate>Tue, 17 Sep 2013 16:35:00 GMT</pubDate></item><item><title>Multi Layer Perceptron</title><link>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</link><dc:creator>Alexander Weigl</dc:creator><description>&lt;div&gt;&lt;p&gt;Just a simple demonstration for a multilayer perceptron.&lt;/p&gt;
 &lt;div class="figure align-center"&gt;
-&lt;img alt="alternate text" src="http://www.student.kit.edu/images/mlp1.png" style="width: 400px;"&gt;
+&lt;img alt="alternate text" src="http://www.student.kit.edu/~uiduw/images/mlp1.png" style="width: 400px;"&gt;
 &lt;p class="caption"&gt;The decision function&lt;/p&gt;
 &lt;/div&gt;
-&lt;p&gt;&lt;a class="reference external" href="link://listing/mlp-test.py"&gt;mlp-test.py&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="http://www.student.kit.edu/~uiduw/listings/mlp-test.py.html"&gt;mlp-test.py&lt;/a&gt;&lt;/p&gt;
 &lt;pre class="code python literal-block"&gt;
 &lt;span class="c"&gt;#!/usr/bin/python&lt;/span&gt;
 
@@ -274,246 +222,7 @@ $ python elias.py
 &lt;span class="n"&gt;plot&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;space&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="n"&gt;space&lt;/span&gt; &lt;span class="o"&gt;+&lt;/span&gt; &lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;savefig&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'mlp1.png'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
 &lt;span class="n"&gt;show&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-&lt;/pre&gt;</description><category>NeuronalNet</category><category>KIT</category><guid>http://www.student.kit.edu/posts/multi-layer-perceptron.html</guid><pubDate>Tue, 10 Sep 2013 20:41:04 GMT</pubDate></item><item><title>Sidenotes with LateX and Auctex</title><link>http://www.student.kit.edu/posts/201305sidenotes-with-latex-and-auctex.html</link><description>&lt;p&gt;I often use the following Latex snippet for creating small notes (like
-paragraphs headings) for the reader's orientation: &lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;\newcommand\sidenote[1]{\marginpar{{\small \textsf{\textbf{#1}}}}}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;This creates in the margin a smaller bolder sans-serif heading. If you want to
-hide this macro within the fold-mode of auctex, you need to adapt following list
-(see here):&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;&lt;em&gt;&lt;em&gt;User Option:&lt;/em&gt;&lt;/em&gt;&lt;/strong&gt; &lt;strong&gt;TeX-fold-macro-spec-list&lt;/strong&gt;
-&lt;/p&gt;&lt;blockquote&gt;
-List of replacement specifiers and macros to fold. The
-specifier can be a string, an integer or a function symbol. If you specify a
-string, it will be used as a display replacement for the whole macro. Numbers in
-braces, brackets, parens or angle brackets will be replaced by the respective
-macro argument. For example ‘{1}’ will be replaced by the first mandatory
-argument of the macro. One can also define alternatives within the specifier
-which are used if an argument is not found. Alternatives are separated by ‘||’.
-They are most useful with optional arguments. As an example, the default
-specifier for ‘\item’ is ‘[1]:||*’ which means that if there is an optional
-argument, its value is shown followed by a colon. If there is no optional
-argument, only an asterisk is used as the display string. If you specify a
-number as the first element, the content of the respective mandatory argument of
-a LaTeX macro will be used as the placeholder. If the first element is a
-function symbol, the function will be called with all mandatory arguments of the
-macro and the result of the function call will be used as a replacement for the
-macro. The placeholder is made by copying the text from the buffer together with
-its properties, i.e. its face as well. If fontification has not happened when
-this is done (e.g. because of lazy font locking) the intended fontification will
-not show up. As a workaround you can leave Emacs idle a few seconds and wait for
-stealth font locking to finish before you fold the buffer. Or you just re-fold
-the buffer with TeX-fold-buffer when you notice a wrong fontification.
-&lt;/blockquote&gt;
-&lt;p&gt;In our case we can need only to execute this:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;add-to-list&lt;/span&gt; &lt;span class="ss"&gt;'TeX-fold-macro-spec-list&lt;/span&gt;
-    &lt;span class="o"&gt;'&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[sidenote]"&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"sidenote"&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;From the documentation you can derive this:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;TeX-fold-macro-spec-list := ( specifier* )
-specifier                := ( {integer, symbol, string}  list-of-tex-macros)
-list-of-tex-macros       := ( string* )
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;If we pass a string, the macro (+ arguments) will be replaced in fold by this
-string. If we use “{n}” (or brackets, parens or angle brackets) the macro will
-be substitue by the n-th argument. The same as you use an integer value. An
-symbol with a bound function will be called by the macro mandatory arguments.&lt;/p&gt;
-&lt;p&gt;Inspect &lt;em&gt;TeX-fold-macro-spec-list&lt;/em&gt; for more details:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="p"&gt;((&lt;/span&gt;&lt;span class="s"&gt;"[f]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"sidenote"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[f]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"footnote"&lt;/span&gt; &lt;span class="s"&gt;"marginpar"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[c]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"cite"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[l]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"label"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[r]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"ref"&lt;/span&gt; &lt;span class="s"&gt;"pageref"&lt;/span&gt; &lt;span class="s"&gt;"eqref"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[i]"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"index"&lt;/span&gt; &lt;span class="s"&gt;"glossary"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"[1]:||"&lt;/span&gt;  &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"item"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"…"&lt;/span&gt;       &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"dots"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"(C)"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"copyright"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"(R)"&lt;/span&gt;     &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"textregistered"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"TM"&lt;/span&gt;      &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"texttrademark"&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
- &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;         &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"part"&lt;/span&gt; &lt;span class="s"&gt;"chapter"&lt;/span&gt; &lt;span class="s"&gt;"section"&lt;/span&gt; &lt;span class="s"&gt;"subsection"&lt;/span&gt; &lt;span class="s"&gt;"subsubsection"&lt;/span&gt;
-             &lt;span class="s"&gt;"paragraph"&lt;/span&gt; &lt;span class="s"&gt;"subparagraph"&lt;/span&gt; &lt;span class="s"&gt;"part"&lt;/span&gt; &lt;span class="s"&gt;"chapter"&lt;/span&gt; &lt;span class="s"&gt;"section"&lt;/span&gt;
-             &lt;span class="s"&gt;"subsection"&lt;/span&gt; &lt;span class="s"&gt;"subsubsection"&lt;/span&gt; &lt;span class="s"&gt;"paragraph"&lt;/span&gt; &lt;span class="s"&gt;"subparagraph"&lt;/span&gt;
-             &lt;span class="s"&gt;"emph"&lt;/span&gt; &lt;span class="s"&gt;"textit"&lt;/span&gt; &lt;span class="s"&gt;"textsl"&lt;/span&gt; &lt;span class="s"&gt;"textmd"&lt;/span&gt; &lt;span class="s"&gt;"textrm"&lt;/span&gt; &lt;span class="s"&gt;"textsf"&lt;/span&gt;
-             &lt;span class="s"&gt;"texttt"&lt;/span&gt; &lt;span class="s"&gt;"textbf"&lt;/span&gt; &lt;span class="s"&gt;"textsc"&lt;/span&gt; &lt;span class="s"&gt;"textup"&lt;/span&gt;&lt;span class="p"&gt;)))&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;</description><guid>http://www.student.kit.edu/posts/201305sidenotes-with-latex-and-auctex.html</guid><pubDate>Wed, 01 May 2013 00:00:00 GMT</pubDate></item><item><title>Semester conclusion: 1 M.Sc. KIT</title><link>http://www.student.kit.edu/posts/conclusion-1st-semester-msc.html</link><description>&lt;p&gt;Here my little conclusion of the last semester (WS12/13). My first semester at
-the Karlsruher Institute of Technology in the study path for M.Sc.&lt;/p&gt;
-&lt;p&gt;My lectures were:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;VF 1: Theoretische Grundlagen&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;em&gt;Advanced Datastructures&lt;/em&gt; -- should be deeper in the analytical section
-  and show more techniques and tools than explizit data structures. BADS'13
-  was nice.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Formale Systeme -- Stammmodule - very dry topic and a good pace at the
-  end, where it get excited (Büchi-Automata and Model-Checking)&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;VF 14: Kognitive Systeme&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;Automatische Sichtprüfung und Bildverarbeitung -- nice lecture, but the
-focus is to much into the optics and physics (computer scientist solve
-problems in the computer, not before)&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Einführung in die Informationsfusion -- My benefit was not to much during
-  this lecture- very dry but involed docent. The last section - more
-  interresting - get very short and the probabilistic methods get too long.&lt;/p&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Maschinelles Lernen I -- Too much topics, nothing in deep - but a nice
-overview&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;Wahlfach:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Telematik -- »duty" lecture« -- nearly the same content as Rechnernetze in
-  the second semester.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;EF: Biomedizinische Messtechnik&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;em&gt;Biomedizinische Messtechnik I&lt;/em&gt; -- should be interresting, but was boring - docent was not well prepared*&lt;/li&gt;
-&lt;li&gt;&lt;em&gt;Bildgebende Verfahren der Medizin I&lt;/em&gt; -- a very fast speed during the lecture and high workload for 3 ECTS.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I visited courses for 32 ECTS. I did exam in 27 ECTS.
-In conclusion: The workload is not presented in ECTS well. The exams are based
-upon powerpoint slides, so you learn stupid bullet points.&lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/conclusion-1st-semester-msc.html</guid><pubDate>Tue, 23 Apr 2013 23:04:00 GMT</pubDate></item><item><title>Dempster-Shafer-Theory</title><link>http://www.student.kit.edu/posts/20130405-dempster-shafer-theory.html</link><description>&lt;p&gt;I got bored. The result is a lousy implementation of the dempster recombination
-rule (dcr) in dempster-shafer theory (dct).&lt;/p&gt;
-&lt;p&gt;The dct describes system of base function to bind uncertainty to specific events
-(similar to Kolgomorov axioms). But the formulation of uncertainty is a kind
-easier.&lt;/p&gt;
-&lt;p&gt;Let's say a sensor says A occurred and we trust the sensor to 60 %. We can
-easily model this:&lt;/p&gt;
-&lt;p&gt;$$ m(A)=0.6,m(\Omega)=0.4$$&lt;/p&gt;
-&lt;p&gt;The event got 0.6 certainty, the rest got the 0.4. Notice that A⊂Ω (That the
-difference to Kolgomorov). The axioms of dct for completeness:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;$0 \le m(A) \le 1$ for every event A&lt;/li&gt;
-&lt;li&gt;$ m(\emptyset)=0$&lt;/li&gt;
-&lt;li&gt;$\sum_{A \subset \Omega} m(A) = 1$&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The difference to Kolgomorov is the third axiom. In the normal probability  the
-sum over every distinct events $X$ must be the sum $P(X)$:&lt;/p&gt;
-&lt;p&gt;$$P(\bigcup_i A_i = \sum_i P(A_i) $$&lt;/p&gt;
-&lt;p&gt;We can define base measures with dcr rule:&lt;/p&gt;
-&lt;p&gt;$$m_1 \oplus m_2 (A) = \begin{cases}\frac{\sum_{X \cap Y = A}
-m_1(X)m_2(Y)}{1-\sum_{X \cap Y = 0} m_1(X)m_2(Y)} &amp;amp; else \ 
-0 &amp;amp; A = \emptyset 
-\end{cases}
-$$&lt;/p&gt;
-&lt;p&gt;Additional we can define the function Bel for the degree of believe resp. Pl for
-plausibility.&lt;/p&gt;
-&lt;p&gt;$$ Bel(A) = \sum_{X \subseteq A} m(x) \qquad\qquad
-   PlA) = \sum_{X \cap A \neq \emptyset} m(x)$$&lt;/p&gt;
-&lt;p&gt;It follows: $0 \le Bel(A) \le Pl(A) \le 1$.
-You can divide the interval $[0,1]$ into three parts:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;$[0,Bel(A)]$  describes certainty of event $A$&lt;/li&gt;
-&lt;li&gt;$[Bel(A),Pl(A)]$ describes the uncertainty of event $A$&lt;/li&gt;
-&lt;li&gt;$[Pl(A),1]$  describes certainty that the event $A$ does not occurred&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Example output:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;weigla@cook ~ % python drc.py
-A: [m: 0.680000] [Bel 0.680000] [Pl 1.000000] ▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒
-B: [m: 0.000000] [Bel 0.000000] [Pl 0.320000] ▒▒▒▒▒▒░░░░░░░░░░░░░░
-C: [m: 0.000000] [Bel 0.000000] [Pl 0.320000] ▒▒▒▒▒▒░░░░░░░░░░░░░░
-O: [m: 0.320000] [Bel 1.000000] [Pl 1.000000] ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
-
-A: [m: 0.438596] [Bel 0.438596] [Pl 0.438596] ▓▓▓▓▓▓▓▓░░░░░░░░░░░░
-B: [m: 0.210526] [Bel 0.000000] [Pl 0.000000] ░░░░░░░░░░░░░░░░░░░░
-C: [m: 0.350877] [Bel 0.000000] [Pl 0.000000] ░░░░░░░░░░░░░░░░░░░░
-O: [m: 0.000000] [Bel 0.438596] [Pl 0.438596] ▓▓▓▓▓▓▓▓░░░░░░░░░░░░
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;drc.py:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;#-*- encoding: utf-8 -*-
-
-class DictWrap(dict):
-    def __call__(self,key): return self[key]
-
-def drc(m1,m2):
-    def appl(A):
-        K = sum((m1(X)*m2(Y)
-                for X in m1.keys()
-                for Y in m2.keys()
-                if len(X&amp;amp;Y) == 0))    
-        if A:
-            s = sum(( m1(X)*m2(Y)
-                      for X in m1.keys()
-                      for Y in m2.keys()
-                      if X&amp;amp;Y == A))            
-            return s/(1-K)
-        else:
-            return 0
-    appl.keys = m1.keys
-    return appl
-
-
-def Pl(m, event):
-    return sum( [m(X) for X in m.keys() 
-                     if len(X &amp;amp; event) &amp;gt; 0])
-
-def Bel(m,event):
-    return sum( [m(X) for X in m.keys() 
-                     if X &amp;lt;= event])
-
-#events 
-A = frozenset(('A',))
-B = frozenset(('B',))
-C = frozenset(('C',))
-OMEGA = A | B | C
-
-#example: two sensors
-s1 = DictWrap({ A : 0.6, OMEGA: 0.4}) # s1 mesaures A with certainty of 60%
-s2 = DictWrap({ A : 0.2, OMEGA: 0.8}) # s2 mesaures A with certainty of 20%
-
-#combine
-fusion = drc(s1,s2)
-def show(text, event):
-    print '%s: [m: %f] [Bel %f] [Pl %f]' % (text, 
-                                       fusion(event),
-                                       Bel(fusion,event), 
-                                       Pl(fusion,event)),
-    print_bar(Bel(fusion,event), Pl(fusion,event))
-
-from math import ceil as round
-
-def print_bar(bel, pl, width = 20):
-    fbel = int(width * bel)
-    fpl = int(width * pl)
-
-a = fbel 
-b = fpl - fbel 
-c = width - fpl 
-print ('▓' * a) + ('▒' * b) + ('░' * c)
-
-show('A', A); show('B', B); show('C', C); show('O', OMEGA)
-
-#combine 
-s3 = DictWrap({ A: 0.2, B: 0.3, C: 0.5})
-fusion = drc(fusion,s3)
-
-show('A', A); show('B', B); show('C', C); show('O', OMEGA)
-&lt;/pre&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/posts/20130405-dempster-shafer-theory.html</guid><pubDate>Wed, 03 Apr 2013 00:00:00 GMT</pubDate></item><item><title>Craig'sche Interpolation Lemma</title><link>http://www.student.kit.edu/posts/201210craigsche-interpolationslemma.html</link><description>&lt;p&gt;&lt;strong&gt;Satz:&lt;/strong&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><category>KIT</category><category>NeuronalNet</category><guid>http://www.student.kit.edu/~uiduw/posts/multi-layer-perceptron.html</guid><pubDate>Tue, 10 Sep 2013 20:41:04 GMT</pubDate></item><item><title>Craig'sche Interpolation Lemma</title><link>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</link><dc:creator>Alexander Weigl</dc:creator><description>&lt;div&gt;&lt;p&gt;&lt;strong&gt;Satz:&lt;/strong&gt;
 Seien $A,B$ zwei aussagenlogische Formeln und es gilt &lt;span class="math"&gt;\(\models A \Rightarrow B\)&lt;/span&gt;
  (Tautologie), dann existiert eine aussagenlogische Formeln $C$, sodass&lt;/p&gt;
 &lt;div class="math"&gt;
@@ -576,325 +285,4 @@ Beweis.&lt;/p&gt;
 \begin{equation*}
 C := A[p=0] \vee A[p=1] \equiv (0 \wedge q) \vee (1 \wedge q) \equiv q
 \end{equation*}
-&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/posts/201210craigsche-interpolationslemma.html</guid><pubDate>Thu, 18 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Organizing Music</title><link>http://www.student.kit.edu/posts/201210organizing-musc.html</link><description>&lt;p&gt;Do want to reorganize your music collection, but Amarok or other players are to
-hard wired? I got this problem with LP from different artists, that would be
-spread other the whole collection. So here is a little script for reorganizing
-music collection, based on the database written by rhythmbox.&lt;/p&gt;
-&lt;p&gt;It tries to determine, if an album is a anthology of different artists and put this in:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$music/&lt;album&gt;/$track - $artist - $album - $title.$suffix&lt;/album&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;rather than albums from one artists:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;$music/&amp;lt;artist&amp;gt;/&lt;album&gt;/$track - $artist - $album - $title.$suffix&lt;/album&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Feel free to modify. This version do not copy or move the files. It creates hard links.&lt;/p&gt;
-&lt;table class="codehilitetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;  1
-  2
-  3
-  4
-  5
-  6
-  7
-  8
-  9
- 10
- 11
- 12
- 13
- 14
- 15
- 16
- 17
- 18
- 19
- 20
- 21
- 22
- 23
- 24
- 25
- 26
- 27
- 28
- 29
- 30
- 31
- 32
- 33
- 34
- 35
- 36
- 37
- 38
- 39
- 40
- 41
- 42
- 43
- 44
- 45
- 46
- 47
- 48
- 49
- 50
- 51
- 52
- 53
- 54
- 55
- 56
- 57
- 58
- 59
- 60
- 61
- 62
- 63
- 64
- 65
- 66
- 67
- 68
- 69
- 70
- 71
- 72
- 73
- 74
- 75
- 76
- 77
- 78
- 79
- 80
- 81
- 82
- 83
- 84
- 85
- 86
- 87
- 88
- 89
- 90
- 91
- 92
- 93
- 94
- 95
- 96
- 97
- 98
- 99
-100
-101
-102
-103
-104
-105
-106
-107
-108
-109
-110
-111
-112
-113
-114
-115&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;div class="code"&gt;&lt;pre&gt;&lt;span class="c"&gt;#!/usr/bin/python3&lt;/span&gt;
-&lt;span class="c"&gt;# -*- encoding: utf-8 -*-&lt;/span&gt;
-
-&lt;span class="n"&gt;__author__&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"Alexander Weigl &amp;lt;alexweigl@gmail.com&amp;gt;"&lt;/span&gt;
-
-&lt;span class="n"&gt;__license__&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"cc-by-sa 3.0"&lt;/span&gt;
-&lt;span class="n"&gt;__date__&lt;/span&gt;    &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"2012-10-02"&lt;/span&gt;
-
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;os&lt;/span&gt; &lt;span class="o"&gt;,&lt;/span&gt; &lt;span class="nn"&gt;os.path&lt;/span&gt;
-&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;sys&lt;/span&gt;
-
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;string&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;Template&lt;/span&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;urllib.parse&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;unquote&lt;/span&gt;
-&lt;span class="kn"&gt;from&lt;/span&gt; &lt;span class="nn"&gt;lxml&lt;/span&gt; &lt;span class="k"&gt;import&lt;/span&gt; &lt;span class="n"&gt;etree&lt;/span&gt;
-
-&lt;span class="n"&gt;PREFIX&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"file://"&lt;/span&gt;
-&lt;span class="n"&gt;RHYTHMDB&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expanduser&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"~/.local/share/rhythmbox/rhythmdb.xml"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;MUSIC_PATH&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;expanduser&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"~/tmp/musc"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;TEMPLATE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;Template&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"$track - $artist - $album - $title.$suffix"&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;VERBOSE&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;mkdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;span class="sd"&gt;"""&lt;/span&gt;
-&lt;span class="sd"&gt;    save wrapper for os.mkdir&lt;/span&gt;
-&lt;span class="sd"&gt;"""&lt;/span&gt;
-&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; 
-    &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;makedirs&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;p&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;OSError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;return&lt;/span&gt;
-
-&lt;span class="n"&gt;COUNTER&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;old&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;span class="s"&gt;"wrapper for os.link"&lt;/span&gt;
-&lt;span class="k"&gt;global&lt;/span&gt; &lt;span class="n"&gt;COUNTER&lt;/span&gt;
-&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;VERBOSE&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Link '%s' to '%s'"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;old&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; 
-        &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;old&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-        &lt;span class="n"&gt;COUNTER&lt;/span&gt; &lt;span class="o"&gt;+=&lt;/span&gt; &lt;span class="mi"&gt;1&lt;/span&gt;
-&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;OSError&lt;/span&gt; &lt;span class="k"&gt;as&lt;/span&gt; &lt;span class="n"&gt;e&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-&lt;span class="c"&gt;#print(e)&lt;/span&gt;
-&lt;span class="k"&gt;pass&lt;/span&gt;
-
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;entry_to_dict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;lis&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;span class="s"&gt;"translate an enty from rhymthmdb to a dictionary"&lt;/span&gt;
-    &lt;span class="n"&gt;d&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{}&lt;/span&gt;
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;ele&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;lis&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;ele&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;tag&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ele&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;text&lt;/span&gt;
-
-    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'album'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"Unbekannt "&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'album'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="k"&gt;None&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="s"&gt;""&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'album'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'file'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;unquote&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'location'&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;PREFIX&lt;/span&gt;&lt;span class="p"&gt;):]&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'track'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s"&gt;"%02d"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;'track-number'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt; &lt;span class="c"&gt;#for templating&lt;/span&gt;
-    &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'suffix'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;'file'&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;3&lt;/span&gt;&lt;span class="p"&gt;:]&lt;/span&gt;
-&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;d&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;format_song&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;span class="s"&gt;"return the filename for the given song"&lt;/span&gt;
-&lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="n"&gt;TEMPLATE&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;substitute&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="o"&gt;**&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;handleCollection&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;album&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-&lt;span class="s"&gt;"handle the complete collection"&lt;/span&gt;
-    &lt;span class="n"&gt;albumRoot&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;MUSIC_PATH&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;album&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;mkdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;albumRoot&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;new&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt;   &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;albumRoot&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;format_song&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-        &lt;span class="n"&gt;old&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt;   &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;"file"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;        
-        &lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;old&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;handleNormalAlbum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;album&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="s"&gt;"handle the complete album"&lt;/span&gt;
-    &lt;span class="n"&gt;artist&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;][&lt;/span&gt;&lt;span class="s"&gt;"artist"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-    &lt;span class="n"&gt;albumRoot&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;MUSIC_PATH&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;artist&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;album&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="n"&gt;mkdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;albumRoot&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;new&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt;   &lt;span class="n"&gt;os&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;path&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;join&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;albumRoot&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;format_song&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;))&lt;/span&gt;
-        &lt;span class="n"&gt;old&lt;/span&gt;  &lt;span class="o"&gt;=&lt;/span&gt;   &lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;"file"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-        &lt;span class="n"&gt;link&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;old&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;new&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;is_collection&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="s"&gt;"True iff. the songs belong to a collection iff. the artists are different"&lt;/span&gt;
-    &lt;span class="n"&gt;artists&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;s&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;"artist"&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;s&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;i&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;len&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;artists&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="o"&gt;-&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;artists&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="o"&gt;!=&lt;/span&gt; &lt;span class="n"&gt;artists&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;i&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
-            &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;True&lt;/span&gt;
-    &lt;span class="k"&gt;return&lt;/span&gt; &lt;span class="k"&gt;False&lt;/span&gt;
-
-
-&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Reading %s"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;RHYTHMDB&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="n"&gt;tree&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;etree&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;parse&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;RHYTHMDB&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="n"&gt;ALBUM&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;dict&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;
-
-&lt;span class="c"&gt;#build up album index&lt;/span&gt;
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;tree&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getroot&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;getchildren&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
-    &lt;span class="n"&gt;song&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;entry_to_dict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;try&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;ALBUM&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;song&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;"album"&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt; &lt;span class="n"&gt;song&lt;/span&gt; &lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;except&lt;/span&gt; &lt;span class="ne"&gt;KeyError&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;ALBUM&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;song&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s"&gt;"album"&lt;/span&gt;&lt;span class="p"&gt;]]&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="n"&gt;song&lt;/span&gt; &lt;span class="p"&gt;]&lt;/span&gt;
-
-
-&lt;span class="n"&gt;mkdir&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;MUSIC_PATH&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="c"&gt;#for each album, handle it appropriate&lt;/span&gt;
-&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;k&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="nb"&gt;list&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;ALBUM&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;keys&lt;/span&gt;&lt;span class="p"&gt;()):&lt;/span&gt;
-    &lt;span class="n"&gt;songs&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;ALBUM&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
-&lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;is_collection&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-        &lt;span class="n"&gt;handleCollection&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
-        &lt;span class="n"&gt;handleNormalAlbum&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;k&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;&lt;span class="n"&gt;songs&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-
-&lt;span class="nb"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;"Linked %d files"&lt;/span&gt; &lt;span class="o"&gt;%&lt;/span&gt; &lt;span class="n"&gt;COUNTER&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-&lt;/pre&gt;&lt;/div&gt;
-&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</description><guid>http://www.student.kit.edu/posts/201210organizing-musc.html</guid><pubDate>Mon, 01 Oct 2012 00:00:00 GMT</pubDate></item><item><title>Latex flow</title><link>http://www.student.kit.edu/posts/201207latex-flow.html</link><description>&lt;h4&gt;Good packages&lt;/h4&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;showkeys&lt;/strong&gt; -- shows the reference keys in \ref and \label statements. A good choice if you use many of them.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;todonotes&lt;/strong&gt; -- provides one nice command \todo. This command prints a note on the side and with \listoftodoes you get an index of all todos in the document. &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;I use the following shortcuts:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;\renewcommand\question[1]{\todo[inline,color=orange!40]{#1}}
-\newcommand{\insertref}[1]{\todo[color=green!40]{#1}}
-\newcommand{\explainindetail}[1]{\todo[inline,color=red!40]{#1}}
-\newcommand{\beforepublish}[1]{\todo[inline,color=blue!40]{\textbf{before publish:} #1}}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;array&lt;/strong&gt; -- for simplier definition of tables formats, especially p{5cm} defines a row width of 5cm and text wrapping.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;mathtools&lt;/strong&gt; -- provides many fixes and new commands for typesetting math.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;nomencl&lt;/strong&gt; -- for setting a nomenclature (e. g. short definitions)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;microtype&lt;/strong&gt; -- only needed to include, makes a better typesetting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;xcolor&lt;/strong&gt; -- provides more color names&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;multicolumn&lt;/strong&gt;-- try this for setting only one paragraph with multicolumns&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;flafter&lt;/strong&gt; -- this depends on your revisior. In my unviversity the floats should be after the first occurence in the text. This package forces this.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;algorithm2e&lt;/strong&gt;-- The mighty package for setting algorithms in LaTeX. If you does not love the syntax you should consider &lt;strong&gt;algorithmic&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;hyperref&lt;/strong&gt; -- a must use for pdf users, generates pdf index and clickable referencen (and much more ...)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;Create new commands and environments&lt;/h4&gt;
-&lt;p&gt;It is often useful that you create new comamnds for your needs.  I create shortcuts for often uses phrases and notations. There are two problems with writing new commands. (1) You want to use the commands within or without math mode
-(2) The leading space or non-leading space after the commands. 
-&lt;strong&gt;Solution:&lt;/strong&gt; For (1), use \ensuremath{} this put everything of the first parameter into math mode, independent of the outer mode. (2) is the target of the package &lt;strong&gt;xspace&lt;/strong&gt;.  This provdes the \xspace command, that only prints a whitespace is not an punctation.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Example:&lt;/strong&gt; For Big-O Notation I use:&lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;\newcommand\Oh[1]{\ensuremath{\mathcal O(#1)}}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;\newcommand\mathdef{\ensuremath{=_{\text{\textup{def}}}}}&lt;/p&gt;
-&lt;p&gt;You can use \Oh{n^3} in the middle of the text or in math mode. and a good symbol for mathematical definition. &lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;\newcommand\IF{\textsc{if}\xspace}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;\newcommand\FOREACH{\textsc{foreach}\xspace}&lt;/p&gt;
-&lt;p&gt;I often write »\FOREACH-Bedingung« and so on. You can view the syntax of (re)newcommand and (re)newenvironment on every latex webpage. In my papers I typeset a lot things in teletype writer, but this looks very big. So I use that: &lt;/p&gt;
-&lt;div class="code"&gt;&lt;pre&gt;\newcommand{\f}[1]{\begingroup \smaller \texttt{#1} \endgroup}
-&lt;/pre&gt;&lt;/div&gt;
-
-
-&lt;p&gt;Mathematical Operator should be declared with \DeclareMathOperator{\first}{first} and written as $\first$ and not $first$. The second means this is one or more variables (variables are always italic). If you use an operator only once, you can consider \operatorname{first}. In my thesis I have defined the following operators:&lt;/p&gt;
-&lt;p&gt;\DeclareMathOperator{\Pol}{Pol}
-    \DeclareMathOperator{\BC}{BC}
-    \DeclareMathOperator{\co}{co}
-    \DeclareMathOperator{\BFS}{BFS}
-    \DeclareMathOperator{\ZK}{ZK}
-    \DeclareMathOperator{\sZK}{sZK}&lt;/p&gt;
-&lt;h4&gt;Environments&lt;/h4&gt;
-&lt;p&gt;A short time ago I read a paper of student for &lt;i&gt;Wissenschaftliches Arbeiten&lt;/i&gt;, a lecture on my university. There was a lot of definition, propositions and other things. But not typeset in an appropriate manner. Everything that should be reference or needed later in an article should get a number in a suitable environment. AMS-Math provides for this some environments: proposition, corollar, problem, definition and should be labelled and used. An example:&lt;/p&gt;
-&lt;p&gt;\begin{definition}[Sternfreie Sprachen]
-    \label{def:sf}
-    Sei $\Sigma$ ein Alphabet. Die sternfreien Sprachen über $\Sigma$, geschrieben $SF_\Sigma$ 
-    bilden die kleinste Klasse von Sprachen über $\Sigma$, die unter folgendem abgeschlossen ist:
-  
-     \begin{itemize}
-        \item $\emptyset$ ist sternfrei
-        \item ${\varepsilon}$ ist sternfrei
-        \item ${a}$ ist sternfrei für $a\in \Sigma$
-        \item Sind $L, L'$ sternfrei, so auch $L \cdot L', \widebar L, L \cup L'$
-    \end{itemize}
-  \end{definition}&lt;/p&gt;
-&lt;p&gt;In my thesis I came to &lt;strong&gt;thmtools&lt;/strong&gt; because I wanted an index of all my definitions and theorems. &lt;/p&gt;
-&lt;h4&gt;Tools&lt;/h4&gt;
-&lt;p&gt;My current editor of choice is emacs + auctex. It has  a steep learning curve but the best features I have seen so far. I know a lot of people using LaTeX-Maker or LaTeX-Studio. These are nice but I miss:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;hard wraps (align-mode)&lt;/li&gt;
-&lt;li&gt;searchable references view with a kind of intellisense autocompletion&lt;/li&gt;
-&lt;li&gt;flyspell&lt;/li&gt;
-&lt;li&gt;easy shortcuts for math symbols &lt;/li&gt;
-&lt;li&gt;C-c C-e for new environment&lt;/li&gt;
-&lt;li&gt;... &lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;For compiling my sources I take latexmk. This makes a lot of things easier. It calls bibtex if needed. Checks if the document is needed to compile again. You can plugin your file conversions easily, too. I use it in the continous mode (-pvc -pdf). This starts a recompilation every time one of the source files are changed (tex, images ... ). A difficult point is the creation of pictures for an article. In my opinion produce the &lt;strong&gt;tikz&lt;/strong&gt; good results but is too hard to learn and use. I use this only for small picture. For complex ones is inkscape my choice. This is an editor for vector graphics can save the images as PDF. This is important for avoid quality losses in resizing images in latex. I use two screens for editing. On the big screen is the emacs editor with multiple buffers (one or two files and table of contents). The small screen contains a pdf viewer (evince), that refresh the view if the pdf is changed and often an terminal, for things like git or latexmk.&lt;/p&gt;
-&lt;p&gt;I work with git and dropbox. The first is for revision and tracking changes, the last only for backup and access for other people. &lt;/p&gt;</description><guid>http://www.student.kit.edu/posts/201207latex-flow.html</guid><pubDate>Sun, 01 Jul 2012 00:00:00 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;&lt;/div&gt;</description><category>mathjax</category><guid>http://www.student.kit.edu/~uiduw/posts/201210craigsche-interpolationslemma.html</guid><pubDate>Thu, 18 Oct 2012 00:00:00 GMT</pubDate></item></channel></rss>

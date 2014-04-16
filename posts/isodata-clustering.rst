@@ -6,7 +6,7 @@
 .. slug: isodata-clustering
 
 
-.. figure:: /images/isodata.gif
+.. figure:: /f/isodata.gif
    :width: 400 px
    :align: center
    :alt: alternate text
