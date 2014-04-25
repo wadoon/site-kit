@@ -1,5 +1,5 @@
-cache
-output
+cache/
+output/
 .doit.db
 
 *.py[cod]
